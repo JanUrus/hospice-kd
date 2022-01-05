@@ -1,7 +1,7 @@
 # hospice-kd
 
 1. Git Bash'ты сиз иштей турган папкадан ачасыз.
-2. `git clone https://github.com/KelechekDigital/hospice-kd.git` ушуну Git Bash'ка жазып Enter'ди базыңыз.
+2. `git clone https://github.com/KelechekDigitalH/hospice-kd.git` ушуну Git Bash'ка жазып Enter'ди базыңыз.
 3. `cd hospice-kd` жазыңыз жана Enter'ди базыңыз.
    - бул команданын жардамы менен hospice-kd деген папканын ичине киребиз
 4. `code .` жазыңыз жана Enter'ди базыңыз.
