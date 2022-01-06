@@ -1,0 +1,77 @@
+.header {
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    position: relative;
+
+    &__logo {
+      width: 30%;
+      cursor: pointer;
+    }
+    &__circle-bg-border {
+      border: 5px solid #ffefab;
+      border-radius: 50%;
+      width: 600px;
+      height: 600px;
+      position: absolute;
+      left: -40px;
+      top: -526px;
+    }
+    &__circle-bg {
+      background-color: #cffffd;
+      border-radius: 50%;
+      width: 350px;
+      height: 350px;
+      position: absolute;
+      left: 200px;
+      top: -300px;
+    }
+
+    &__menu {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 60%;
+
+      &__item {
+        list-style: none;
+
+        &__link {
+          text-decoration: none;
+          font-family: "Raleway", sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 21px;
+          letter-spacing: 0.14em;
+          color: #000000;
+          text-transform: uppercase;
+          &:hover {
+            padding-bottom: 10px;
+            border-bottom: #775ca6 solid 4px;
+            transition: 0.5s ease;
+          }
+        }
+
+        &__link-donate {
+          background: #775ca6;
+          border-radius: 5px;
+          padding: 10px 28px;
+          color: #fff;
+          transition: 0.8s ease;
+          &:hover {
+            border-bottom: none;
+            background-color: #fff;
+            color: #775ca6;
+            border: #775ca6 solid 1px;
+          }
+        }
+      }
+      &__item + &__item {
+        margin-left: 40px;
+      }
+    }
+  }
+}
