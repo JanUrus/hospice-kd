@@ -2,9 +2,12 @@ body {
     overflow-x: hidden;
 }
 
+
 section {
     position: relative;
-    min-height: 100vh;
+    // min-height: 100vh;
+    max-width: 1557px;
+     margin: auto;
 
     .topscreen {
         position: absolute;
@@ -281,4 +284,149 @@ section {
             }
         }
     }
+}
+
+
+.blc_our-kids{
+    &__text{
+        &__h{
+        position: absolute;
+        width: 219px;
+        height: 41px;
+        left: 611px;
+        top: 977px; 
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 41px; 
+        font-feature-settings: 'pnum' on, 'lnum' on; 
+        color: #000000;
+    }
+    }
+    &__kids_card1{
+        &__kids_img1{
+            position: absolute;
+            width: 238px;
+            left: 177px;
+            height: 246px;
+            top: 1080px;  
+            filter: drop-shadow(0px -7px 6px rgba(97, 97, 97, 0.59));
+        }
+        &__rectangle1{
+            position: absolute;
+            width: 401px;
+            height: 477px;
+            left: 95px;
+            top: 1167px;     
+            background: #E3ECFF;
+            border-radius: 20px;
+        }
+        &__h{
+            position: absolute;
+            width: 217px;
+            height: 36.46px;
+            left: 195px;
+            top: 1346.13px;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 25px;
+            line-height: 36px;
+            color: #000000; 
+        }
+        &__diognoz{
+            position: absolute;
+            width: 296px;
+            height: 21px;
+            left: 143px;
+            top: 1389px;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 21px; 
+            color: #000000; 
+        }
+        &__status1{
+            &__prosent1{
+                position: absolute;
+                height: 25px;
+                width: 37px;
+                left: 291px;
+                top: 1436px;
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16.8px;
+                line-height: 25px; 
+                color: #000000;
+            }
+            &__filled_empty1{
+                position: absolute;
+                width: 297px;
+                height: 15px;
+                left: 152px;
+                top: 1462px;
+
+                &__filled_emtyy{
+                    position: absolute;
+                    height: 15px;
+                    left: calc(50% - 297px/2 - -0.5px);
+                    width: 297px;
+                    top: 3px;
+                    
+                    background: #201d1d;
+                    border-radius: 5px;
+                }
+                &__filled_emtrr{
+                    position: absolute;
+                    width: 182px;
+                    height: 15px;
+                    left: calc(50% - 182px/2 - 7px);
+                    top: 33px;    
+                    background: #00AFA9;
+                    border-radius: 5px;
+                }
+            }
+
+            &__hh22{
+                position: absolute;
+                width: 109px;
+                height: 36px;
+                left: 362px;
+                top: 1492px;
+                
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 14px;
+                /* or 100% */
+                
+                
+                color: #000000;
+            }
+            &__hh222{
+                position: absolute;
+                width: 102px;
+                height: 36px;
+                left: 147px;
+                top: 1498px;
+                
+                
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 14px;
+                /* or 100% */
+                
+                
+                color: #000000;
+            }
+        }
+
+    }
+
 }
