@@ -19,6 +19,10 @@
 @import "./headerfooter/footer";
 @import "./aside";
 @import "./calltoaction";
+@import "./wanthelp";
+@import "./mainpage/mainpage";
 
 // Erbol - Need Help page
-@import '../scss/need-help/heed-help';
+@import "../scss/need-help/heed-help";
+
+@import "./wanttohelp/wanttohelp";
