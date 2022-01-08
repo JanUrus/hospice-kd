@@ -345,14 +345,14 @@ section {
                 color: #000000;
             }
 
-                &__Photo{
-                    position: absolute;
+            &__Photo {
+                position: absolute;
                 width: 297px;
                 height: 15px;
                 left: 144px;
                 top: 1468px;
-                }
-          
+            }
+
 
             &__hh22 {
                 position: absolute;
@@ -373,7 +373,7 @@ section {
                 width: 102px;
                 height: 36px;
                 left: 146px;
-	            top: 1493px;
+                top: 1493px;
                 font-family: "Poppins";
                 font-style: normal;
                 font-weight: 500;
@@ -417,9 +417,11 @@ section {
         }
 
     }
+
     &__kids_card2 {
         position: absolute;
         left: 425px;
+
         &__kids_img1 {
             position: absolute;
             width: 238px;
@@ -480,14 +482,14 @@ section {
                 color: #000000;
             }
 
-                &__Photo{
-                    position: absolute;
+            &__Photo {
+                position: absolute;
                 width: 297px;
                 height: 15px;
                 left: 144px;
                 top: 1468px;
-                }
-          
+            }
+
 
             &__hh22 {
                 position: absolute;
@@ -508,7 +510,7 @@ section {
                 width: 102px;
                 height: 36px;
                 left: 146px;
-	            top: 1493px;
+                top: 1493px;
                 font-family: "Poppins";
                 font-style: normal;
                 font-weight: 500;
@@ -552,9 +554,11 @@ section {
         }
 
     }
+
     &__kids_card3 {
         position: absolute;
         left: 849px;
+
         &__kids_img1 {
             position: absolute;
             width: 238px;
@@ -615,14 +619,14 @@ section {
                 color: #000000;
             }
 
-                &__Photo{
-                    position: absolute;
+            &__Photo {
+                position: absolute;
                 width: 297px;
                 height: 15px;
                 left: 144px;
                 top: 1468px;
-                }
-          
+            }
+
 
             &__hh22 {
                 position: absolute;
@@ -643,7 +647,7 @@ section {
                 width: 102px;
                 height: 36px;
                 left: 146px;
-	            top: 1493px;
+                top: 1493px;
                 font-family: "Poppins";
                 font-style: normal;
                 font-weight: 500;
@@ -670,7 +674,6 @@ section {
                     background: #775ca6;
                     border-radius: 5px;
                     padding: 0px 42px;
-                    ;
                     color: #fff;
                     transition: 0.8s ease;
                     left: -7px;
@@ -688,4 +691,173 @@ section {
 
     }
 
+}
+
+
+
+
+.blc_how-help {
+    &__text {
+        &__hh {
+            position: absolute;
+            height: 41px;
+            width: 257px;
+            left: 611px;
+            top: 1755px;
+            font-family: Rubik;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 39px;
+            line-height: 41px;
+            font-feature-settings: 'pnum'on, 'lnum'on;
+            color: #000000;
+        }
+    }
+
+    &__volunteers-rect {
+        position: absolute;
+        width: 819px;
+        height: 424px;
+        left: 521px;
+        top: 1867px;
+
+        background: #FF7272;
+        border-radius: 20px;
+
+        &__png {
+            position: absolute;
+            width: 79px;
+            height: 66px;
+            left: 83px;
+            top: 74px;
+        }
+
+        &__h6 {
+            position: absolute;
+            left: 188px;
+            top: 98px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+
+        &__icon {
+            position: absolute;
+            height: 62px;
+            width: 80px;
+            left: 421px;
+            top: 76px;
+        }
+
+        &__pomosh {
+            position: absolute;
+            left: 523px;
+            top: 98px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+
+        &__trans {
+            position: absolute;
+            width: 79px;
+            height: 66px;
+            left: 83px;
+            top: 287px;
+        }
+
+        &__textrans {
+            position: absolute;
+            left: 188px;
+            top: 309px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+
+        &__materi {
+            position: absolute;
+            width: 79px;
+            height: 66px;
+            left: 421px;
+            top: 287px;
+        }
+
+        &__textmateri {
+            position: absolute;
+            left: 524px;
+            top: 309px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+    }
+
+    &__how-helpleft {
+        position: absolute;
+        height: 424px;
+        width: 394.94px;
+        left: 100px;
+        top: 1867px;
+        background: #FFEBF9;
+        border-radius: 20px;
+    
+
+    &__button4 {
+        position: absolute;
+        width: 192px;
+        height: 40px;
+        left: 201px;
+        top: 2215px;
+
+        &__helpp {
+            position: absolute;
+            font-family: "Raleway";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 40px;
+            text-decoration: none;
+            background: #775ca6;
+            border-radius: 5px;
+            padding: 0px 42px;
+            color: #fff;
+            transition: 0.8s ease;
+            left: -103px;
+            top: -1865px;
+
+            &:hover {
+                border-bottom: none;
+                background-color: #fff;
+                color: #775ca6;
+                border: #775ca6 solid 1px;
+            }
+
+        }
+
+    }
+    &__howhelpimg{
+        position: absolute;
+        width: 250px;
+        height: 273px;
+        left: 75px;
+        top: 40px;
+    }
+  }
 }
