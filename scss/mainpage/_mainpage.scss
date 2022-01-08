@@ -7,7 +7,7 @@ section {
     position: relative;
     // min-height: 100vh;
     max-width: 1557px;
-     margin: auto;
+    margin: auto;
 
     .topscreen {
         position: absolute;
@@ -200,7 +200,7 @@ section {
                 height: 123px;
                 left: 97px;
                 top: 198px;
-                font-family: Rubik;
+                font-family: "Rubik";
                 font-style: normal;
                 font-weight: bold;
                 font-size: 40px;
@@ -218,7 +218,7 @@ section {
                 left: 97px;
                 top: 348px;
 
-                font-family: Rubik;
+                font-family: "Rubik";
                 font-style: normal;
                 font-weight: normal;
                 font-size: 16px;
@@ -233,51 +233,30 @@ section {
             }
 
             &__a {
-                position: absolute;
-                align-items: center;
-
-                // width: 192px;
-                // height: 40px;
-                // left: 97px;
-                // top: 444px;
                 &__kk {
-                    text-decoration: none;
-                    align-items: center;
-                    position: absolute;
-                    width: 68px;
-                    height: 21px;
-                    left: 100px;
-                    top: 454px;
-                    font-family: Raleway;
-                    // font-style: normal;
-                    font-weight: bold;
-                    font-size: 18px;
-                    line-height: 21px;
-                    // letter-spacing: 0.03em; 
-                    color: #FFFFFF;
-                    transition: 0.8s ease;
-
-                    &:hover {
-                        border-bottom: none;
-                        background-color: #fff;
-                        color: #775ca6;
-                        border: #775ca6 solid 1px;
-                    }
 
                     &__donate {
-                        // position: absolute;
-                        height: 40px;
-                        width: 192px;
-                        left: 97px;
-                        top: 444px;
-                        background: #775CA6;
+                        position: absolute;
+                        font-family: "Raleway";
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 18px;
+                        line-height: 40px;
+                        text-decoration: none;
+                        background: #775ca6;
                         border-radius: 5px;
+                        padding: 2px 65px;
+                        ;
+                        color: #fff;
+                        transition: 0.8s ease;
+                        left: 93px;
+                        top: 443px;
 
-                        // text-transform: uppercase;
                         &:hover {
-                            padding-bottom: 10px;
-                            border-bottom: #775ca6 solid 4px;
-                            transition: 0.5s ease;
+                            border-bottom: none;
+                            background-color: #fff;
+                            color: #775ca6;
+                            border: #775ca6 solid 1px;
                         }
                     }
                 }
@@ -287,143 +266,423 @@ section {
 }
 
 
-.blc_our-kids{
-    &__text{
-        &__h{
-        position: absolute;
-        width: 219px;
-        height: 41px;
-        left: 611px;
-        top: 977px; 
-        font-family: Rubik;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 40px;
-        line-height: 41px; 
-        font-feature-settings: 'pnum' on, 'lnum' on; 
-        color: #000000;
+.blc_our-kids {
+    &__text {
+        &__h {
+            position: absolute;
+            width: 219px;
+            height: 41px;
+            left: 611px;
+            top: 977px;
+            font-family: "Rubik";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 41px;
+            font-feature-settings: 'pnum'on, 'lnum'on;
+            color: #000000;
+        }
     }
-    }
-    &__kids_card1{
-        &__kids_img1{
+
+    &__kids_card1 {
+        &__kids_img1 {
             position: absolute;
             width: 238px;
             left: 177px;
             height: 246px;
-            top: 1080px;  
+            top: 1080px;
             filter: drop-shadow(0px -7px 6px rgba(97, 97, 97, 0.59));
         }
-        &__rectangle1{
+
+        &__rectangle1 {
             position: absolute;
             width: 401px;
             height: 477px;
             left: 95px;
-            top: 1167px;     
+            top: 1167px;
             background: #E3ECFF;
             border-radius: 20px;
         }
-        &__h{
+
+        &__h {
             position: absolute;
             width: 217px;
             height: 36.46px;
             left: 195px;
             top: 1346.13px;
-            font-family: Poppins;
+            font-family: "Poppins";
             font-style: normal;
             font-weight: bold;
             font-size: 25px;
             line-height: 36px;
-            color: #000000; 
+            color: #000000;
         }
-        &__diognoz{
+
+        &__diognoz {
             position: absolute;
             width: 296px;
             height: 21px;
             left: 143px;
             top: 1389px;
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 21px; 
-            color: #000000; 
+            font-family: "Poppins";
+            font-size: 16px;
+            line-height: 25px;
+            color: #000000;
         }
-        &__status1{
-            &__prosent1{
+
+        &__status1 {
+            &__prosent1 {
                 position: absolute;
                 height: 25px;
                 width: 37px;
-                left: 291px;
-                top: 1436px;
-                font-family: Poppins;
+                left: 286px;
+                top: 1441px;
+                font-family: "Poppins";
                 font-style: normal;
                 font-weight: bold;
                 font-size: 16.8px;
-                line-height: 25px; 
+                line-height: 25px;
                 color: #000000;
             }
-            &__filled_empty1{
-                position: absolute;
+
+                &__Photo{
+                    position: absolute;
                 width: 297px;
                 height: 15px;
-                left: 152px;
-                top: 1462px;
-
-                &__filled_emtyy{
-                    position: absolute;
-                    height: 15px;
-                    left: calc(50% - 297px/2 - -0.5px);
-                    width: 297px;
-                    top: 3px;
-                    
-                    background: #201d1d;
-                    border-radius: 5px;
+                left: 144px;
+                top: 1468px;
                 }
-                &__filled_emtrr{
-                    position: absolute;
-                    width: 182px;
-                    height: 15px;
-                    left: calc(50% - 182px/2 - 7px);
-                    top: 33px;    
-                    background: #00AFA9;
-                    border-radius: 5px;
-                }
-            }
+          
 
-            &__hh22{
+            &__hh22 {
                 position: absolute;
-                width: 109px;
                 height: 36px;
-                left: 362px;
+                width: 152px;
+                left: 358px;
                 top: 1492px;
-                
-                font-family: Poppins;
+                font-family: "Poppins";
                 font-style: normal;
                 font-weight: 500;
-                font-size: 14px;
-                line-height: 14px;
-                /* or 100% */
-                
-                
+                font-size: 18px;
+                line-height: 21px;
                 color: #000000;
             }
-            &__hh222{
+
+            &__hh222 {
                 position: absolute;
                 width: 102px;
                 height: 36px;
-                left: 147px;
-                top: 1498px;
-                
-                
-                font-family: Poppins;
+                left: 146px;
+	            top: 1493px;
+                font-family: "Poppins";
                 font-style: normal;
                 font-weight: 500;
-                font-size: 14px;
-                line-height: 14px;
-                /* or 100% */
-                
-                
+                font-size: 19px;
+                line-height: 21px;
                 color: #000000;
+            }
+
+            &__button1 {
+                position: absolute;
+                width: 192px;
+                height: 40px;
+                left: 204px;
+                top: 1559px;
+
+                &__aa {
+                    position: absolute;
+                    font-family: "Raleway";
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 40px;
+                    text-decoration: none;
+                    background: #775ca6;
+                    border-radius: 5px;
+                    padding: 0px 42px;
+                    ;
+                    color: #fff;
+                    transition: 0.8s ease;
+                    left: -7px;
+                    top: 8px;
+
+                    &:hover {
+                        border-bottom: none;
+                        background-color: #fff;
+                        color: #775ca6;
+                        border: #775ca6 solid 1px;
+                    }
+                }
+            }
+        }
+
+    }
+    &__kids_card2 {
+        position: absolute;
+        left: 425px;
+        &__kids_img1 {
+            position: absolute;
+            width: 238px;
+            left: 177px;
+            height: 246px;
+            top: 1080px;
+            filter: drop-shadow(0px -7px 6px rgba(97, 97, 97, 0.59));
+        }
+
+        &__rectangle1 {
+            position: absolute;
+            width: 401px;
+            height: 477px;
+            left: 95px;
+            top: 1167px;
+            background: #FFEFAB;
+            border-radius: 20px;
+        }
+
+        &__h {
+            position: absolute;
+            width: 217px;
+            height: 36.46px;
+            left: 195px;
+            top: 1346.13px;
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 25px;
+            line-height: 36px;
+            color: #000000;
+        }
+
+        &__diognoz {
+            position: absolute;
+            width: 296px;
+            height: 21px;
+            left: 143px;
+            top: 1389px;
+            font-family: "Poppins";
+            font-size: 16px;
+            line-height: 25px;
+            color: #000000;
+        }
+
+        &__status1 {
+            &__prosent1 {
+                position: absolute;
+                height: 25px;
+                width: 37px;
+                left: 286px;
+                top: 1441px;
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16.8px;
+                line-height: 25px;
+                color: #000000;
+            }
+
+                &__Photo{
+                    position: absolute;
+                width: 297px;
+                height: 15px;
+                left: 144px;
+                top: 1468px;
+                }
+          
+
+            &__hh22 {
+                position: absolute;
+                height: 36px;
+                width: 152px;
+                left: 358px;
+                top: 1492px;
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 21px;
+                color: #000000;
+            }
+
+            &__hh222 {
+                position: absolute;
+                width: 102px;
+                height: 36px;
+                left: 146px;
+	            top: 1493px;
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 19px;
+                line-height: 21px;
+                color: #000000;
+            }
+
+            &__button1 {
+                position: absolute;
+                width: 192px;
+                height: 40px;
+                left: 204px;
+                top: 1559px;
+
+                &__aa {
+                    position: absolute;
+                    font-family: "Raleway";
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 40px;
+                    text-decoration: none;
+                    background: #775ca6;
+                    border-radius: 5px;
+                    padding: 0px 42px;
+                    ;
+                    color: #fff;
+                    transition: 0.8s ease;
+                    left: -7px;
+                    top: 8px;
+
+                    &:hover {
+                        border-bottom: none;
+                        background-color: #fff;
+                        color: #775ca6;
+                        border: #775ca6 solid 1px;
+                    }
+                }
+            }
+        }
+
+    }
+    &__kids_card3 {
+        position: absolute;
+        left: 849px;
+        &__kids_img1 {
+            position: absolute;
+            width: 238px;
+            left: 177px;
+            height: 246px;
+            top: 1080px;
+            filter: drop-shadow(0px -7px 6px rgba(97, 97, 97, 0.59));
+        }
+
+        &__rectangle1 {
+            position: absolute;
+            width: 401px;
+            height: 477px;
+            left: 95px;
+            top: 1167px;
+            background: #CFFFFD;
+            border-radius: 20px;
+        }
+
+        &__h {
+            position: absolute;
+            width: 217px;
+            height: 36.46px;
+            left: 195px;
+            top: 1346.13px;
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 25px;
+            line-height: 36px;
+            color: #000000;
+        }
+
+        &__diognoz {
+            position: absolute;
+            width: 296px;
+            height: 21px;
+            left: 143px;
+            top: 1389px;
+            font-family: "Poppins";
+            font-size: 16px;
+            line-height: 25px;
+            color: #000000;
+        }
+
+        &__status1 {
+            &__prosent1 {
+                position: absolute;
+                height: 25px;
+                width: 37px;
+                left: 286px;
+                top: 1441px;
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16.8px;
+                line-height: 25px;
+                color: #000000;
+            }
+
+                &__Photo{
+                    position: absolute;
+                width: 297px;
+                height: 15px;
+                left: 144px;
+                top: 1468px;
+                }
+          
+
+            &__hh22 {
+                position: absolute;
+                height: 36px;
+                width: 152px;
+                left: 358px;
+                top: 1492px;
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 21px;
+                color: #000000;
+            }
+
+            &__hh222 {
+                position: absolute;
+                width: 102px;
+                height: 36px;
+                left: 146px;
+	            top: 1493px;
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 19px;
+                line-height: 21px;
+                color: #000000;
+            }
+
+            &__button1 {
+                position: absolute;
+                width: 192px;
+                height: 40px;
+                left: 204px;
+                top: 1559px;
+
+                &__aa {
+                    position: absolute;
+                    font-family: "Raleway";
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 40px;
+                    text-decoration: none;
+                    background: #775ca6;
+                    border-radius: 5px;
+                    padding: 0px 42px;
+                    ;
+                    color: #fff;
+                    transition: 0.8s ease;
+                    left: -7px;
+                    top: 8px;
+
+                    &:hover {
+                        border-bottom: none;
+                        background-color: #fff;
+                        color: #775ca6;
+                        border: #775ca6 solid 1px;
+                    }
+                }
             }
         }
 
