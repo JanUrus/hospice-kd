@@ -1,0 +1,87 @@
+body {
+	overflow-x: hidden;
+}
+
+.blc__document {
+
+	&__card1 {
+		
+		h4 {
+			position: absolute;
+         height: 41px;
+         width: 68px;
+         left: 194px;
+	      top: 196px;
+         font-family: Rubik;
+         font-style: normal;
+         font-weight: 500;
+         font-size: 24px;
+         line-height: 41px;
+         color: #000000;
+		}
+
+	&__file-1 {
+		background: #E5E5E5;
+		position: absolute;
+		width: 259px;
+		height: 343px;
+		left: 99px;
+		top: 249px;
+		border-radius: 20px;
+	}
+}
+
+	&__card2 {
+
+		h4 {
+			position: absolute;
+         height: 41px;
+      	width: 68px;
+         left: 464px;
+	      top: 196px;
+         font-family: Rubik;
+         font-style: normal;
+         font-weight: 500;
+         font-size: 24px;
+         line-height: 41px;
+         color: #000000;
+		}
+
+		&__file-2 {
+			background-color: #E5E5E5;
+			position: absolute;
+			width: 259px;
+			height: 343px;
+			left: 377px;
+			top: 249px;
+			border-radius: 20px;
+		}
+	}
+
+	&__card3 {
+
+		h4 {
+			position: absolute;
+         height: 41px;
+      	width: 68px;
+         left: 752px;
+	      top: 196px;
+         font-family: Rubik;
+         font-style: normal;
+         font-weight: 500;
+         font-size: 24px;
+         line-height: 41px;
+         color: #000000;
+		}
+
+		&__file-3 {
+			background-color: #E5E5E5;
+			position: absolute;
+			width: 259px;
+			height: 343px;
+			left: 656px;
+			top: 249px;
+			border-radius: 20px;
+		}
+	}
+}
