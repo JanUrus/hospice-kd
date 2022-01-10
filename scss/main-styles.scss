@@ -19,10 +19,21 @@
 @import "./headerfooter/footer";
 @import "./aside";
 @import "./calltoaction";
+@import "./wanttohelp/wanthelp";
 @import "./mainpage/mainpage";
 
 // Erbol - Need Help page
+<<<<<<< HEAD
 @import '../scss/need-help/heed-help';
 
 // Diana Sadirbekkyzy - Application page
 @import '../scss/application/application';
+=====
+@import "../scss/need-help/heed-help";
+
+//Myrzaiym - Donate page
+@import "./donate/donate";
+
+// Nurgul - Official document
+@import "./official-doc/official";
+>>>>>>> 1036eca216da8c9e96ccafabc5b7eae28611dbc7
