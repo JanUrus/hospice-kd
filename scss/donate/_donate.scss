@@ -238,6 +238,7 @@ $color__white: #ffffff;
 .report {
   &__receipts {
     background-color: $color__blue;
+    margin-bottom: 100px;
 
     &__all-title {
       &__two-row {
@@ -339,13 +340,11 @@ $color__white: #ffffff;
                 font-size: 20px;
                 font-weight: 600;
                 font-style: normal;
-
-            }
-
-                margin: 20px 0 0 0;
-                color: $color__black;
-                align-items: center;
               }
+
+              margin: 20px 0 0 0;
+              color: $color__black;
+              align-items: center;
             }
           }
         }
