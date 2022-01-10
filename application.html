@@ -10,7 +10,37 @@
     <link rel="stylesheet" href="CSS/main-styles.min.css">
 </head>
 <body>
-    <div class="page">
+
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+				<div class="header__inner__logo">
+					<a class="header__inner__logo__link" href="index.html">
+						<img class="header__inner__logo__link__img" src="./img/logo.svg" alt="Первый Детский Хоспис">
+					</a>
+				</div>
+				<div class="header__inner__circle-bg-border"></div>
+				<div class="header__inner__circle-bg"></div>
+				<ul class="header__inner__menu">
+					<li class="header__inner__menu__item">
+						<a class="header__inner__menu__item__link" href="">О фонде</a>
+					</li>
+					<li class="header__inner__menu__item">
+						<a class="header__inner__menu__item__link" href="wanthelp.html">Хочу помочь</a>
+					</li>
+					<li class="header__inner__menu__item">
+						<a class="header__inner__menu__item__link" href="heed-help.html">Нужна помощь</a>
+					</li>
+					<li class="header__inner__menu__item">
+						<a class="header__inner__menu__item__link header__inner__menu__item__link-donate"
+							href="donate.html">Пожертвовать</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+    <!-- <div class="page">
         <div class="container">
             <aside class="secondary">
         
@@ -28,11 +58,15 @@
                     </ul>
                 </div>
             </aside>
-                <div class="title">
-                    <h2>Получить помощь</h2>
-                </div>
-                <div class="txt__descrip">
-                    <p>Важно помнить и понимать, что хоспис не занимается лечением основного заболевания или реабилитаций.<br><br>
+        </div>
+    </div> -->
+
+    <section class="get-help">
+        <div class="container">
+            <div class="get-help__inner">
+                <div class="get-help__inner__item">
+                    <h2 class="get-help__inner__item__title">Получить помощь</h2><br><br>
+                    <h5 class="get-help__inner__item__sub-title">Важно помнить и понимать, что хоспис не занимается лечением основного заболевания или реабилитаций.<br><br>
                         Наши задачи — это симптоматическая терапия и забота о качестве жизни ребенка и всей его семьи. Паллиативная помощь — специализированный вид услуг для детей, чье заболевание не поддается лечению и ограничивает срок жизни детским возрастом.<br><br>
                         Направление в хоспис должен дать лечащий врач в лечебном учреждении, где ребенок получал основное лечение. К сожалению, многие медики в нашей стране не знают про хоспис, и семьям приходится искать помощи самостоятельно. В Детском хосписе существует медицинская комиссия, которая рассматривает новые обращения и принимает решение о постановке на учет на основании следующих критериев отбора пациентов:<br><br> 
                         — Онкология в 4 стадии после решения консилиума об инкурабельности, либо в случае, когда ребенок становится глубоко инвалидизирован в процессе лечения;<br><br>
@@ -48,13 +82,41 @@
                         Хоспис работает с пациентами от 0 до 21 года.<br><br>
                         Чтобы отправить заявку на постановку на учет в Детский хоспис, необходимо заполнить Анкету.<br><br>
                         Анкета будет обработана сотрудниками фонда в течение 5 рабочих дней. При необходимости сотрудник фонда свяжется с вами для дополнительных уточнений.<br><br>
-                        Отправляя данное обращение, вы даете согласие на обработку, хранение и использование конфиденциальной информации, приведенной в обращении, в т.ч. на предоставление данной информации медицинским экспертам фонда для получения их экспертного мнения.</p>
+                        Отправляя данное обращение, вы даете согласие на обработку, хранение и использование конфиденциальной информации, приведенной в обращении, в т.ч. на предоставление данной информации медицинским экспертам фонда для получения их экспертного мнения.</h5>
                 </div>
+            </div>
         </div>
-    </div>
+    </section>
             
-        
+       
+    
+
+  <div class="container1">
+  <form class="form" id="form">
+    <div class="form-control">
+        <label>ФИО пациента (полностью)</label>
+        <input type="text" id="username">
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+    </div>
+    <div class="form-control">
+        <label>Ваш возраст</label>
+        <input type="namber" id="userage">
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+    </div>
+
+  </form>
+  ]
+</div>
 
     
 </body>
 </html>
+
+
+
+
+
+
+
