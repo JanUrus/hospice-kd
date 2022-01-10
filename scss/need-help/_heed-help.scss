@@ -8,6 +8,13 @@ $color__white: #FFFFFF;
 
 // REQUESET HELP SECTION
 
+.img-bg {
+    position: absolute;
+    width: 195px;
+    
+    transform: translate(450%, 20%);
+}
+
 .request-help {
     min-height: 0;
     margin-bottom: 86px;
