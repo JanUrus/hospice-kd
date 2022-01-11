@@ -236,119 +236,156 @@ $color__white: #ffffff;
 }
 
 .report {
-  &__receipts {
-    background-color: $color__blue;
-    margin-bottom: 100px;
+    
+    &__receipts {
+        background-color: $color__blue;
+        margin-bottom: 100px;
 
-    &__all-title {
-      &__two-row {
-        font-family: Rubik, sans-serif;
-        font-size: 36px;
-        font-weight: 500;
-        font-style: normal;
-
-        margin: 90px 0 0 0;
-        padding: 60px 0 0 0;
-        color: $color__black;
-        text-align: center;
-      }
-
-      &__pdf-bloks {
-        &__second-row {
-          display: flex;
-          flex-wrap: wrap;
-          margin-left: 105px;
-          padding: 40px 0 0 0;
-
-          &__july {
-            &__img-and-title {
-              &__title {
+        &__all-title {
+            
+            &__two-row {
                 font-family: Rubik, sans-serif;
-                font-size: 20px;
-                font-weight: 600;
+                font-size: 36px;
+                font-weight: 500;
                 font-style: normal;
 
-                margin: 20px 0 100px 0;
+                margin: 90px 0 0 0;
+                padding: 60PX 0 0 0;
                 color: $color__black;
-                align-items: center;
-              }
+                text-align: center;
+                
             }
-          }
 
-          &__august {
-            &__img-and-title {
-              &__title {
-                font-family: Rubik, sans-serif;
-                font-size: 20px;
-                font-weight: 600;
-                font-style: normal;
+            &__pdf-bloks {
 
-                margin: 20px 0 0 0;
-                color: $color__black;
-                align-items: center;
-              }
+                
+               
+                &__second-row {
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-left: 105px;
+                    padding: 40px 0 0 0;
+                 
+                        &__july {
+
+                                 
+                            &__img-and-title {
+                                
+                                
+                                &__title {
+                                    font-family: Rubik, sans-serif;
+                                        font-size: 20px;
+                                        font-weight: 600;
+                                        font-style: normal;
+        
+                                        margin: 20px 0 100px 0;
+                                        color: $color__black;
+                                        align-items: center;
+                                
+                                
+                            }
+                        }
+                    }
+                    
+
+                            &__august {
+    
+                                &__img-and-title {
+                                    
+                                    
+                                    &__title {
+                                        font-family: Rubik, sans-serif;
+                                        font-size: 20px;
+                                        font-weight: 600;
+                                        font-style: normal;
+        
+                                        margin: 20px 0 0 0;
+                                        color: $color__black;
+                                        align-items: center;
+                                    
+                                }
+     
+                            }
+                        }
+
+                            &__september {
+    
+                                &__img-and-title {
+                        
+                                    &__title {
+                                        font-family: Rubik, sans-serif;
+                                        font-size: 20px;
+                                        font-weight: 600;
+                                        font-style: normal;
+        
+                                        margin: 20px 0 0 0;
+                                        color: $color__black;
+                                        align-items: center;
+                                    
+                                }
+                            }
+                             
+                        }
+                            &__october{
+    
+                                &__img-and-title {
+                                   
+
+                                    &__title {
+                                        font-family: Rubik, sans-serif;
+                                        font-size: 20px;
+                                        font-weight: 600;
+                                        font-style: normal;
+        
+                                        margin: 20px 0 0 0;
+                                        color: $color__black;
+                                        align-items: center;
+                                    
+                                }
+                            } 
+
+                        }
+                            
+                            &__november{
+    
+                                &__img-and-title {
+                                    
+                                  
+                                    
+                                    
+                                    &__title {
+                                        font-family: Rubik, sans-serif;
+                                        font-size: 20px;
+                                        font-weight: 600;
+                                        font-style: normal;
+        
+                                        margin: 20px 0 0 0;
+                                        color: $color__black;
+                                        align-items: center;
+                                    
+                                }
+                            } 
+
+                        }
+                                &__december{
+    
+                                    &__img-and-title {
+                                        
+                                        &__title {
+                                            font-family: Rubik, sans-serif;
+                                            font-size: 20px;
+                                            font-weight: 600;
+                                            font-style: normal;
+            
+                                            margin: 20px 0 0 0;
+                                            color: $color__black;
+                                            align-items: center;
+                                        }
+                                        
+                                    }
+                                }   
+                            }
+                        }
+                    }
+                }
             }
-          }
-
-          &__september {
-            &__img-and-title {
-              &__title {
-                font-family: Rubik, sans-serif;
-                font-size: 20px;
-                font-weight: 600;
-                font-style: normal;
-
-                margin: 20px 0 0 0;
-                color: $color__black;
-                align-items: center;
-              }
-            }
-          }
-          &__october {
-            &__img-and-title {
-              &__title {
-                font-family: Rubik, sans-serif;
-                font-size: 20px;
-                font-weight: 600;
-                font-style: normal;
-
-                margin: 20px 0 0 0;
-                color: $color__black;
-                align-items: center;
-              }
-            }
-          }
-
-          &__november {
-            &__img-and-title {
-              &__title {
-                font-family: Rubik, sans-serif;
-                font-size: 20px;
-                font-weight: 600;
-                font-style: normal;
-
-                margin: 20px 0 0 0;
-                color: $color__black;
-                align-items: center;
-              }
-            }
-          }
-          &__december {
-            &__img-and-title {
-              &__title {
-                font-family: Rubik, sans-serif;
-                font-size: 20px;
-                font-weight: 600;
-                font-style: normal;
-              }
-
-              margin: 20px 0 0 0;
-              color: $color__black;
-              align-items: center;
-            }
-          }
-        }
-      }
-    }
-  }
-}
