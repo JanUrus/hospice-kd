@@ -1,11 +1,49 @@
-.page{
-     &__page__additional__inner{
-    display: flex;
-    justify-content: space-between;
-    width: 230px;
-    height: 17px;
-    top: 131px;
-    left: 100px;
-    position: absolute;
-    color: #616161;
-}}
+// .page {
+//     &__application {
+//         &__item{
+//             &__inner{
+//                 &__link{
+//                     display: flex;
+//                     justify-content: space-between;
+//                 }
+//             }
+//         }
+
+//     }
+// }
+
+.get-help {
+
+    &__inner {
+
+        &__item {
+
+            &__title {
+                font-family: Rubik, sans-serif;
+                font-size: 40px;
+                font-weight: 600;
+                font-style: normal;
+                color: black;
+            }
+            &__sub-title  {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 20px;
+                font-weight: 400;
+                font-style: normal;
+                color: black;
+                margin: 33px 0 0;
+            }
+        }
+    }
+}
+
+
+// * {
+//     box-sizing: border-box;
+// }
+// .container1{
+//     background-color: white;
+//     border-radius: 5px;
+//     box-shadow: 0 2px rgba(red, green, blue, alpha);
+//     width: 1240px;
+// }

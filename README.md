@@ -12,4 +12,21 @@
 8. Жумушуңузду бүткөндөн кийин `git add .` жазыңыз жана Enter'ди базыңыз.
 9. `git commit -m "Бул жерге комментарий жазып коюуңуз кыска жана түшүнүктүү болушу керек.`
 10. `git push origin devs` жазыңыз жана Enter'ди базыңыз.
-11. Эми GitHub'ка барыңыз. Сиз иштеп жаткан реподон _Pull requests_ басыңыз.
+11. Эми GitHub ка барып төмөнкү сүрөттөгү баскычты табыңыз (Pull requests) 
+![alt](assets/1.jpg)
+
+12. Андан соң (New pull request)
+![alt](assets/2.jpg)
+
+13. Эми оң жактагы **main** веткасын басыңыз
+![alt](assets/3.jpg)
+
+14. **devs** веткасын базыңыз
+![alt](assets/4.jpg)
+
+15. **View pull request** базыңыз
+![alt](assets/5.jpg)
+
+16. Бүттү)) Pull request жоноткон сон Молдогазы мырзага айтып койсонуз э))
+**Merge pull request баспаңыз ×**
+![alt](assets/6.jpg)
