@@ -35,3 +35,11 @@
 
 // Diana Sadirbekkyzy - Application page
 @import "../scss/application/application";
+
+@media (max-width: 991.98px) {
+  .container {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+  }
+}
