@@ -1,0 +1,391 @@
+$color__blue: #e3ecff;
+$color__light-blue: #cffffd;
+$color__yellow: #ffefab;
+$color__pink: #ffebf9;
+$color__violet: #775ca6;
+$color__black: #000000;
+$color__white: #ffffff;
+
+// DONATE SECTION
+
+.donate {
+  &__inner {
+    &__all-elements {
+      &__title {
+        font-family: Rubik, sans-serif;
+        font-size: 36px;
+        font-weight: 500;
+        font-style: normal;
+
+        margin: 30px 0 40px 0;
+        color: $color__black;
+        text-align: center;
+      }
+
+      &__item-blocks {
+        &__first-row {
+          display: flex;
+          align-items: center;
+
+          &__wallet-pay {
+            margin: -40px 0 30px 0;
+          }
+
+          &__help-sick-children {
+            background-color: $color__blue;
+            border-radius: 15px;
+            padding: 36px 30px 46px 13px;
+            box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
+
+            &__logo-and-title {
+              display: flex;
+              align-items: center;
+
+              &__title {
+                font-family: Rubik, sans-serif;
+                font-size: 20px;
+                font-weight: 700;
+                font-style: normal;
+
+                color: $color__black;
+                margin: 0 0 0 10px;
+              }
+            }
+
+            &__pg {
+              font-family: Rubik, sans-serif;
+              font-size: 20px;
+              font-weight: 400;
+              font-style: normal;
+
+              color: $color__black;
+              max-width: 333px;
+              margin: 36px 0;
+            }
+
+            &__btn {
+              font-family: Rubik, sans-serif;
+              font-size: 16px;
+              font-weight: 700;
+              font-style: normal;
+
+              background-color: $color__violet;
+              color: $color__white;
+              letter-spacing: 0.14em;
+
+              margin: 20px 0 0 0;
+              padding: 10px 53px;
+              border-radius: 5px;
+              border: transparent;
+              cursor: pointer;
+              background: #775ca6;
+
+              padding: 10px 28px;
+              color: #fff;
+              transition: 0.8s ease;
+              &:hover {
+                border-bottom: none;
+                background-color: #fff;
+                color: #775ca6;
+                border: #775ca6 solid 1px;
+              }
+            }
+          }
+
+          &__treatment-abroad {
+            background-color: $color__light-blue;
+            border-radius: 15px;
+            padding: 36px 120px 46px 13px;
+            box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
+            margin: 60px 50px;
+
+            &__logo-and-title {
+              display: flex;
+              align-items: center;
+
+              &__wallet2 {
+                margin: 0 0 30px 0;
+              }
+
+              &__title {
+                font-family: Rubik, sans-serif;
+                font-size: 20px;
+                font-weight: 700;
+                font-style: normal;
+
+                padding: 0 0 30px 0;
+                color: $color__black;
+                margin: 0 30px 0 10px;
+              }
+            }
+
+            &__pg {
+              font-family: Rubik, sans-serif;
+              font-size: 20px;
+              font-weight: 400;
+              font-style: normal;
+
+              color: $color__black;
+              max-width: 353px;
+              margin: 36px 0;
+            }
+
+            &__visacard-icon {
+              display: flex;
+              align-items: center;
+            }
+
+            &__btn {
+              font-family: Rubik, sans-serif;
+              font-size: 16px;
+              font-weight: 700;
+              font-style: normal;
+              display: flex;
+              flex-wrap: wrap;
+
+              background-color: $color__violet;
+              color: $color__white;
+              letter-spacing: 0.14em;
+
+              margin: 20px 0 0 0;
+              padding: 10px 53px;
+              border-radius: 5px;
+              border: transparent;
+              cursor: pointer;
+              background: #775ca6;
+
+              padding: 10px 28px;
+              color: #fff;
+              transition: 0.8s ease;
+              &:hover {
+                border-bottom: none;
+                background-color: #fff;
+                color: #775ca6;
+                border: #775ca6 solid 1px;
+              }
+            }
+          }
+
+          &__psychological-support {
+            background-color: $color__yellow;
+            border-radius: 15px;
+            padding: 36px 30px 46px 13px;
+            box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
+
+            &__logo-and-title {
+              display: flex;
+              align-items: center;
+
+              &__wallet3 {
+                margin: 0 0px 128px 0;
+              }
+
+              &__title {
+                font-family: Rubik, sans-serif;
+                font-size: 20px;
+                font-weight: 700;
+                font-style: normal;
+
+                color: $color__black;
+                margin: 0 40px 130px 10px;
+              }
+            }
+
+            &__pg {
+              font-family: Rubik, sans-serif;
+              font-size: 20px;
+              font-weight: 400;
+              font-style: normal;
+
+              color: $color__black;
+              max-width: 353px;
+              margin: 36px 0;
+            }
+
+            &__btn {
+              font-family: Rubik, sans-serif;
+              font-size: 16px;
+              font-weight: 700;
+              font-style: normal;
+
+              background-color: $color__violet;
+              color: $color__white;
+              letter-spacing: 0.14em;
+
+              margin: 40px 0 0 0;
+              padding: 10px 53px;
+              border-radius: 5px;
+              border: transparent;
+              cursor: pointer;
+              background: #775ca6;
+              padding: 10px 28px;
+              color: #fff;
+              transition: 0.8s ease;
+              &:hover {
+                border-bottom: none;
+                background-color: #fff;
+                color: #775ca6;
+                border: #775ca6 solid 1px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.report {
+    
+    &__receipts {
+        background-color: $color__blue;
+        margin-bottom: 100px;
+
+        &__all-title {
+            
+            &__two-row {
+                font-family: Rubik, sans-serif;
+                font-size: 36px;
+                font-weight: 500;
+                font-style: normal;
+
+                margin: 90px 0 0 0;
+                padding: 60PX 0 0 0;
+                color: $color__black;
+                text-align: center;
+                
+            }
+
+            &__pdf-bloks {
+
+                
+               
+                &__second-row {
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-left: 105px;
+                    padding: 40px 0 0 0;
+                 
+                        &__july {
+
+                                 
+                            &__img-and-title {
+                                
+                                
+                                &__title {
+                                    font-family: Rubik, sans-serif;
+                                        font-size: 20px;
+                                        font-weight: 600;
+                                        font-style: normal;
+        
+                                        margin: 20px 0 100px 0;
+                                        color: $color__black;
+                                        align-items: center;
+                                
+                                
+                            }
+                        }
+                    }
+                    
+
+                            &__august {
+    
+                                &__img-and-title {
+                                    
+                                    
+                                    &__title {
+                                        font-family: Rubik, sans-serif;
+                                        font-size: 20px;
+                                        font-weight: 600;
+                                        font-style: normal;
+        
+                                        margin: 20px 0 0 0;
+                                        color: $color__black;
+                                        align-items: center;
+                                    
+                                }
+     
+                            }
+                        }
+
+                            &__september {
+    
+                                &__img-and-title {
+                        
+                                    &__title {
+                                        font-family: Rubik, sans-serif;
+                                        font-size: 20px;
+                                        font-weight: 600;
+                                        font-style: normal;
+        
+                                        margin: 20px 0 0 0;
+                                        color: $color__black;
+                                        align-items: center;
+                                    
+                                }
+                            }
+                             
+                        }
+                            &__october{
+    
+                                &__img-and-title {
+                                   
+
+                                    &__title {
+                                        font-family: Rubik, sans-serif;
+                                        font-size: 20px;
+                                        font-weight: 600;
+                                        font-style: normal;
+        
+                                        margin: 20px 0 0 0;
+                                        color: $color__black;
+                                        align-items: center;
+                                    
+                                }
+                            } 
+
+                        }
+                            
+                            &__november{
+    
+                                &__img-and-title {
+                                    
+                                  
+                                    
+                                    
+                                    &__title {
+                                        font-family: Rubik, sans-serif;
+                                        font-size: 20px;
+                                        font-weight: 600;
+                                        font-style: normal;
+        
+                                        margin: 20px 0 0 0;
+                                        color: $color__black;
+                                        align-items: center;
+                                    
+                                }
+                            } 
+
+                        }
+                                &__december{
+    
+                                    &__img-and-title {
+                                        
+                                        &__title {
+                                            font-family: Rubik, sans-serif;
+                                            font-size: 20px;
+                                            font-weight: 600;
+                                            font-style: normal;
+            
+                                            margin: 20px 0 0 0;
+                                            color: $color__black;
+                                            align-items: center;
+                                        }
+                                        
+                                    }
+                                }   
+                            }
+                        }
+                    }
+                }
+            }

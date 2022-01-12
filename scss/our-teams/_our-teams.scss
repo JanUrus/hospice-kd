@@ -21,10 +21,8 @@ margin: 20px 1115px 64px 100px;
 
 .our-teams {
     width: 1244px;
-height: 1750px;
-left: 98px;
-top: 70px;
-
+    height: 1750px;
+    margin: 100px 98px 36px 98px;
 
 &__elements {
     width: 822px;
@@ -61,8 +59,6 @@ top: 70px;
 &__cards {
     width: 820px;
     height: 1088px;
-    left: 102px;
-    top: 547px;
     margin: 67px 19px 109px 100px;
     display: flex;
     flex-direction: column;   

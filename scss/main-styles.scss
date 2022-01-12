@@ -11,17 +11,41 @@
   color: #fff;
 }
 .container {
-  max-width: 1240px;
+  width: 1240px;
   margin: auto;
+}
+
+@media (max-width: 1023.98px) {
+  .container {
+    width: 100%;
+    padding: 20px;
+  }
 }
 
 @import "./headerfooter/header";
 @import "./headerfooter/footer";
 @import "./aside";
 @import "./calltoaction";
+@import "./wanttohelp/wanthelp";
 @import "./mainpage/mainpage";
 
 // Erbol - Need Help page
+
 @import '../scss/need-help/heed-help';
 
+// Ayzada - our-teams page
 @import "../scss/our-teams/our-teams";
+
+
+
+//Myrzaiym - Donate page
+@import "./donate/donate";
+
+// Nurgul - Official document
+@import './official-doc/official';
+
+// legal-entities page (юр. лица)
+@import "./legal-entities/legal-entities";
+
+// Diana Sadirbekkyzy - Application page
+@import "../scss/application/application";
