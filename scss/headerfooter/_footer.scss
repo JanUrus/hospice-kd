@@ -1,0 +1,213 @@
+.footer {
+  font-family: "Rubik", sans-serif;
+  background-color: #775ca6;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  margin-top: 100px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 60px 100px;
+
+    &__social-media-logo {
+      width: 24%;
+      padding-right: 30px;
+      &__inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+
+        &__item {
+          list-style: none;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          &__hospice-descr {
+            margin: 17px 0 40px;
+          }
+
+          &__sm-descr {
+            margin-bottom: 13px;
+          }
+
+          &__link + &__link {
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+
+    &__requisites-info-contact {
+      width: 71%;
+      &__inner {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 0;
+
+        &__title {
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 16px;
+          letter-spacing: 0.01em;
+          text-transform: uppercase;
+          margin-bottom: 20px;
+        }
+
+        &__requisites {
+          width: 290px;
+          &__item {
+            &__PayPal-link {
+              color: #fff;
+              text-decoration: none;
+            }
+          }
+          &__item + &__item {
+            margin-bottom: 9px;
+          }
+        }
+
+        &__info {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+
+          &__item {
+            color: #fff;
+            text-decoration: none;
+            transition: all 0.7s ease-in-out;
+
+            &:hover {
+              text-decoration-line: underline;
+              color: #ffffff;
+              opacity: 0.7;
+            }
+          }
+
+          &__item + &__item {
+            margin-top: 14px;
+          }
+        }
+
+        &__contact {
+          width: 100%;
+          &__item {
+            display: flex;
+
+            &__location {
+              color: #fff;
+            }
+            &__icon {
+              &__location,
+              &__phone,
+              &__email {
+                margin-right: 15px;
+              }
+            }
+
+            &__email {
+              &__text {
+                color: #fff;
+                text-decoration: none;
+              }
+            }
+
+            &__phone {
+              display: flex;
+              &__numbers {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                &__item {
+                  color: #fff;
+                  text-decoration: none;
+                }
+              }
+            }
+          }
+
+          &__item + &__item {
+            margin-bottom: 14px;
+          }
+        }
+      }
+    }
+  }
+
+  &__mb-unique {
+    margin-bottom: 14px;
+  }
+}
+
+@media (max-width: 1023.98px) {
+  .footer {
+    &__inner {
+      color: #fff;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+      padding: 60px 20px;
+
+      &__social-media-logo {
+        width: 50%;
+        padding-top: 50px;
+        order: 2;
+      }
+
+      &__requisites-info-contact {
+        width: 100%;
+        order: 1;
+
+        &__requisites {
+          width: 100%;
+        }
+        &__info {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 679.98px) {
+  .footer {
+    &__inner {
+      &__social-media-logo {
+        order: 2;
+      }
+
+      &__requisites-info-contact {
+        width: 100%;
+        order: 1;
+
+        &__inner {
+          &__requisites {
+            grid-area: requisites;
+          }
+
+          &__info {
+            grid-area: info;
+          }
+
+          &__contact {
+            grid-area: contact;
+          }
+
+          display: grid;
+          grid-template-columns:
+            "requisites info"
+            "requisites contact";
+        }
+      }
+    }
+  }
+}
