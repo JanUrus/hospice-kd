@@ -11,8 +11,15 @@
   color: #fff;
 }
 .container {
-  max-width: 1240px;
+  width: 1240px;
   margin: auto;
+}
+
+@media (max-width: 1023.98px) {
+  .container {
+    width: 100%;
+    padding: 20px;
+  }
 }
 
 @import "./headerfooter/header";
@@ -23,7 +30,7 @@
 @import "./mainpage/mainpage";
 
 // Erbol - Need Help page
-@import '../scss/need-help/heed-help';
+@import "../scss/need-help/heed-help";
 
 //Myrzaiym - Donate page
 @import "./donate/donate";

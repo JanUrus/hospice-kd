@@ -1,4 +1,4 @@
-# hospice-kd
+# [hospice-kd](https://kelechekdigitalh.github.io/hospice-kd/)
 
 1. Git Bash'ты сиз иштей турган папкадан ачасыз.
 2. `git clone https://github.com/KelechekDigitalH/hospice-kd.git` ушуну Git Bash'ка жазып Enter'ди базыңыз.
