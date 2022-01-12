@@ -24,9 +24,12 @@
 14. **devs** веткасын базыңыз
 ![alt](assets/4.jpg)
 
-15. **View pull request** базыңыз
+15. **Create pull request** базыңыз
 ![alt](assets/5.jpg)
 
-16. Бүттү)) Pull request жоноткон сон Молдогазы мырзага айтып койсонуз э))
+16. Дагы **Create pull request** базыңыз
+![alt](assets/7.jpg)
+
+17. Бүттү)) Pull request жоноткон сон Молдогазы мырзага айтып койсонуз э))
 **Merge pull request баспаңыз ×**
 ![alt](assets/6.jpg)

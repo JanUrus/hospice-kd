@@ -45,7 +45,17 @@
 @import './official-doc/official';
 
 // legal-entities page (юр. лица)
-@import "./legal-entities/legal-entities";
+@import "../scss/legal-entities/legal-entities";
 
 // Diana Sadirbekkyzy - Application page
 @import "../scss/application/application";
+
+
+// Jama-About_found page
+@import "./about-fund/about-fund";
+
+@import "../scss/application/application";
+
+// Diana Zhusupbekova - Reports page
+@import "../scss/reports/reports";
+
