@@ -1,3 +1,4 @@
+// accordion
 let acc = document.getElementsByClassName("cooperation-accord__inner__acc-blc__accordion");
 let i;
 
