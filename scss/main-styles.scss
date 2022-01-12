@@ -30,7 +30,13 @@
 @import "./mainpage/mainpage";
 
 // Erbol - Need Help page
-@import "../scss/need-help/heed-help";
+
+@import '../scss/need-help/heed-help';
+
+// Ayzada - our-teams page
+@import "../scss/our-teams/our-teams";
+
+
 
 //Myrzaiym - Donate page
 @import "./donate/donate";
@@ -44,7 +50,12 @@
 // Diana Sadirbekkyzy - Application page
 @import "../scss/application/application";
 
+
 // Jama-About_found page
 @import "./about-fund/about-fund";
 
 @import "../scss/application/application";
+
+// Diana Zhusupbekova - Reports page
+@import "../scss/reports/reports";
+
