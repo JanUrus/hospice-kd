@@ -11,8 +11,15 @@
   color: #fff;
 }
 .container {
-  max-width: 1240px;
+  width: 1240px;
   margin: auto;
+}
+
+@media (max-width: 1023.98px) {
+  .container {
+    width: 100%;
+    padding: 20px;
+  }
 }
 
 @import "./headerfooter/header";
@@ -26,19 +33,43 @@
 
 @import '../scss/need-help/heed-help';
 
+
 // Diana Sadirbekkyzy - Application page
 @import '../scss/application/application';
 // =====
 
 @import "../scss/need-help/heed-help";
 
+// Ayzada - our-teams page
+@import "../scss/our-teams/our-teams";
+
 //Myrzaiym - Donate page
 @import "./donate/donate";
 
 // Nurgul - Official document
+
 @import "./official-doc/official";
 
 
-@import "../scss/need-help/heed-help";
+@import './official-doc/official';
+
+// legal-entities page (юр. лица)
+@import "../scss/legal-entities/legal-entities";
+
+
+// Diana Sadirbekkyzy - Application page
+@import "../scss/application/application";
+
+//Ainagul -Fund's history page
+@import "../scss/history_fund/history";
+
+
+// Jama-About_found page
+@import "./about-fund/about-fund";
+
+@import "../scss/application/application";
+
+// Diana Zhusupbekova - Reports page
+@import "../scss/reports/reports";
 
 

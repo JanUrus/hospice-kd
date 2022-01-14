@@ -1,5 +1,5 @@
 $color__blue: #E3ECFF;
-$color__light-blue: #CFFFFD;
+$color__light-blue: #80ccc9;
 $color__yellow: #FFEFAB;
 $color__pink: #FFEBF9;
 $color__violet: #775CA6;
@@ -427,6 +427,25 @@ $color__white: #FFFFFF;
     margin-top: 80px;
     margin-bottom: 42px;
     padding: 43px 0;
+    
+    .slick-dots li button:before { 
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    
+    .slick-next:before {
+        font-size: 40px;
+
+        position: absolute;
+        transform: translate(-20%, 0);
+    }
+
+    .slick-prev:before {
+        font-size: 40px;
+
+        position: absolute;
+        transform: translate(-80%, 0);
+    }
 
     &__inner {
 
@@ -450,8 +469,9 @@ $color__white: #FFFFFF;
                 background-color: $color__white;
                 box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
                 max-width: 295px;
-                min-height: 452px;
+                min-height: 452px !important;
                 border-radius: 15px;
+                margin-bottom: 50px;
 
                 svg {
                     width: 100%;
@@ -483,7 +503,7 @@ $color__white: #FFFFFF;
             }
 
             &__block + &__block {
-                margin-left: 20px;
+                margin-left: 110px;
             }
         }
     }

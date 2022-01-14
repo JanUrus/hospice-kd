@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
-    <title>Пожертвовать</title>
-    <link rel="icon" href="./img/favicon.svg">
-    <link rel="stylesheet" href="CSS/main-styles.min.css">
+    <title>Отчеты</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/main-styles.min.css">
+    <link rel="icon" href="./img/favicon.svg">
 </head>
 
 <body>
-
     <header class="header">
         <div class="container">
             <div class="header__inner">
@@ -24,13 +23,13 @@
                 <div class="header__inner__circle-bg"></div>
                 <ul class="header__inner__menu">
                     <li class="header__inner__menu__item">
-                        <a class="header__inner__menu__item__link" href="index.html">О фонде</a>
+                        <a class="header__inner__menu__item__link" href="">О фонде</a>
                     </li>
                     <li class="header__inner__menu__item">
                         <a class="header__inner__menu__item__link" href="wanthelp.html">Хочу помочь</a>
                     </li>
                     <li class="header__inner__menu__item">
-                        <a class="header__inner__menu__item__link" href="wanthelp.html">Нужна помощь</a>
+                        <a class="header__inner__menu__item__link" href="need-help.html">Нужна помощь</a>
                     </li>
                     <li class="header__inner__menu__item">
                         <a class="header__inner__menu__item__link header__inner__menu__item__link-donate"
@@ -41,183 +40,72 @@
         </div>
     </header>
 
-    <main>
-        <section class="donate">
-            <div class="container">
-                <div class="donate__inner">
-                    <div class="donate__inner__all-elements">
-                        <h1 class="donate__inner__all-elements__title">Выберите удобный для Вас способ оплаты</h1>
+    <main class="reports">
+        <div class="reports__header">
+            <h2 class="reports__title">Отчеты</h2>
+        </div>
+        <div class="reports__years">
+            <div class="reports__years-link">
+                <a class="reports__year-link" href="#">
+                    2021
+                </a>
+            </div>
 
-                        <div class="donate__inner__all-elements__item-blocks">
-                            <div class="donate__inner__all-elements__item-blocks__first-row">
-
-                                <div class="donate__inner__all-elements__item-blocks__first-row__help-sick-children">
-                                    <div
-                                        class="donate__inner__all-elements__item-blocks__first-row__help-sick-children__logo-and-title">
-                                        <img src="img/donate/pay_card-icon1.png" alt="icon">
-
-                                        <p
-                                            class="donate__inner__all-elements__item-blocks__first-row__help-sick-children__logo-and-title__title">
-                                            Банковские реквизиты</p>
-                                    </div>
-
-                                    <p
-                                        class="donate__inner__all-elements__item-blocks__first-row__help-sick-children__pg">
-                                        KICB (КИКБ) USD счета: <br> 1280096037288495, SWIFT: KICBKG22
-
-                                        <br>KGS (сомового) счета: 1280096037288596, БИК: 12809
-                                    </p>
-
-                                    <button
-                                        class="donate__inner__all-elements__item-blocks__first-row__help-sick-children__btn"
-                                        type="button">Подробнее</button>
-                                </div>
-
-                                <div class="donate__inner__all-elements__item-blocks__first-row__treatment-abroad">
-                                    <div
-                                        class="donate__inner__all-elements__item-blocks__first-row__treatment-abroad__logo-and-title">
-                                        <img class="donate__inner__all-elements__item-blocks__first-row__treatment-abroad__logo-and-title__wallet2"
-                                            src="img/donate/pay_card-icon1.png" alt="icon">
-
-                                        <p
-                                            class="donate__inner__all-elements__item-blocks__first-row__treatment-abroad__logo-and-title__title">
-                                            Оплата картой</p>
-                                    </div>
-
-                                    <p
-                                        class="donate__inner__all-elements__item-blocks__first-row__treatment-abroad__pg">
-                                        Элсом 0559647457
-                                        <br>Ольга Юрьевна Труханова
-                                    </p>
-                                    <div
-                                        class="donate__inner__all-elements__item-blocks__first-row__treatment-abroad__visacard-icon">
-                                        <img class="donate__inner__all-elements__item-blocks__first-row__treatment-abroad__visacard-icon__waillet"
-                                            src="img/donate/mastercard-icon (1).png" alt="icon">
-                                        <img class="donate__inner__all-elements__item-blocks__first-row__treatment-abroad__visacard-icon__waillet2"
-                                            src="img/donate/visacard-icon (1).png" alt="icon">
-
-                                    </div>
-
-                                    <button
-                                        class="donate__inner__all-elements__item-blocks__first-row__treatment-abroad__btn"
-                                        type="button">Подробнее</button>
-                                </div>
-
-                                <div class="donate__inner__all-elements__item-blocks__first-row__psychological-support">
-                                    <div
-                                        class="donate__inner__all-elements__item-blocks__first-row__psychological-support__logo-and-title">
-                                        <img class="donate__inner__all-elements__item-blocks__first-row__psychological-support__logo-and-title__wallet3"
-                                            src="img/donate/pay_card-icon1.png" alt="icon">
-                                        <p
-                                            class="donate__inner__all-elements__item-blocks__first-row__psychological-support__logo-and-title__title">
-                                            Электронные кошелки</p>
-                                    </div>
-                                    <div class="donate__inner__all-elements__item-blocks__first-row__wallet-pay">
-                                        <a href="#"><img src="img/donate/M-bank-icon (1).png" alt="icon"></a>
-                                        <a href="#"><img src="img/donate/O-dengi-icon (1).png" alt="icon"></a>
-                                        <a href="#"><img src="img/donate/balcnceKG-icon (1).png" alt="icon"></a>
-                                        <a href="#"><img src="img/donate/elsom-icon (1).png" alt="icon"></a>
-                                        <a href="#"><img src="img/donate/megaPay-icon.png" alt="icon"></a>
-                                    </div>
-
-                                    <button
-                                        class="donate__inner__all-elements__item-blocks__first-row__psychological-support__btn"
-                                        type="button">Подробнее</button>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
+            <div class="months">
+                <div class="months__blc months__blc-no-margin"><span class="months__ex-txt">Декабрь 2021</span>
+                    <a class="months__blc-txt" href="#">Скачать</a>
+                </div>
+                <div class="months__blc"><span class="months__ex-txt">Декабрь 2021</span>
+                    <a class="months__blc-txt" href="#">Скачать</a>
+                </div>
+                <div class="months__blc"><span class="months__ex-txt">Декабрь 2021</span>
+                    <a class="months__blc-txt" href="#">Скачать</a>
                 </div>
             </div>
-        </section>
-
-        <section class="report">
-            <div class="container">
-                <div class="report__receipts">
-                    <div class="report__receipts__all-title">
-                        <h1 class="report__receipts__all-title__two-row">Отчеты о поступлениях и расходах</h1>
-                        <div class="report__receipts__all-title__pdf-bloks">
-                            <div class="report__receipts__all-title__pdf-bloks__second-row">
-
-                                <div class="report__receipts__all-title__pdf-bloks__second-row__july">
-                                    <div
-                                        class="report__receipts__all-title__pdf-bloks__second-row__july__img-and-title">
-                                        <a href="#"><img src="img/donate/icon-pdf.png" alt="icon"></a>
-                                        <p
-                                            class="report__receipts__all-title__pdf-bloks__second-row__july__img-and-title__title">
-                                            Июль - 2021</p>
-                                    </div>
-
-                                </div>
-
-
-                                <div class="report__receipts__all-title__pdf-bloks__second-row__august">
-                                    <div
-                                        class="report__receipts__all-title__pdf-bloks__second-row__august__img-and-title">
-                                        <a href="#"><img src="img/donate/icon-pdf.png" alt="icon"></a>
-                                        <p
-                                            class="report__receipts__all-title__pdf-bloks__second-row__august__img-and-title__title">
-                                            Август - 2021</p>
-                                    </div>
-
-                                </div>
-
-
-                                <div class="report__receipts__all-title__pdf-bloks__second-row__september">
-                                    <div
-                                        class="report__receipts__all-title__pdf-bloks__second-row__september__img-and-title">
-                                        <a href="#"><img src="img/donate/icon-pdf.png" alt="icon"></a>
-                                        <p
-                                            class="report__receipts__all-title__pdf-bloks__second-row__september__img-and-title__title">
-                                            Сентябрь - 2021</p>
-                                    </div>
-
-                                </div>
-
-
-                                <div class="report__receipts__all-title__pdf-bloks__second-row__october">
-                                    <div
-                                        class="report__receipts__all-title__pdf-bloks__second-row__october__img-and-title">
-                                        <a href="#"><img src="img/donate/icon-pdf.png" alt="icon"></a>
-                                        <p
-                                            class="report__receipts__all-title__pdf-bloks__second-row__october__img-and-title__title">
-                                            Октябрь - 2021</p>
-                                    </div>
-
-                                </div>
-
-
-                                <div class="report__receipts__all-title__pdf-bloks__second-row__november">
-                                    <div
-                                        class="report__receipts__all-title__pdf-bloks__second-row__november__img-and-title">
-                                        <a href="#"><img src="img/donate/icon-pdf.png" alt="icon"></a>
-                                        <p
-                                            class="report__receipts__all-title__pdf-bloks__second-row__november__img-and-title__title">
-                                            Ноябрь - 2021</p>
-                                    </div>
-
-                                </div>
-
-
-                                <div class="report__receipts__all-title__pdf-bloks__second-row__december">
-                                    <div
-                                        class="report__receipts__all-title__pdf-bloks__second-row__december__img-and-title">
-                                        <a href="#"><img src="img/donate/icon-pdf.png" alt="icon"></a>
-                                        <p
-                                            class="report__receipts__all-title__pdf-bloks__second-row__december__img-and-title__title">
-                                            Декабрь - 2021</p>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
+            <div class="months">
+                <div class="months__blc months__blc-no-margin"><span class="months__ex-txt">Декабрь 2021</span>
+                    <a class="months__blc-txt" href="#">Скачать</a>
+                </div>
+                <div class="months__blc"><span class="months__ex-txt">Декабрь 2021</span>
+                    <a class="months__blc-txt" href="#">Скачать</a>
+                </div>
+                <div class="months__blc"><span class="months__ex-txt">Декабрь 2021</span>
+                    <a class="months__blc-txt" href="#">Скачать</a>
                 </div>
             </div>
+        </div>
+        <div class="reports__years  reports__margin">
+            <div class="reports__years-link">
+                <a class="reports__year-link" href="#">
+                    2020
+                </a>
             </div>
-        </section>
+            <div class="months__year">
+                <a href="#"><span class="months__year-title">Годовой отчет</span> </a>
+            </div>
+            <div class="months">
+                <div class="months__blc months__blc-no-margin"><span class="months__ex-txt">Декабрь 2021</span>
+                    <a class="months__blc-txt" href="#">Скачать</a>
+                </div>
+                <div class="months__blc"><span class="months__ex-txt">Декабрь 2021</span>
+                    <a class="months__blc-txt" href="#">Скачать</a>
+                </div>
+                <div class="months__blc"><span class="months__ex-txt">Декабрь 2021</span>
+                    <a class="months__blc-txt" href="#">Скачать</a>
+                </div>
+            </div>
+            <div class="months">
+                <div class="months__blc months__blc-no-margin"><span class="months__ex-txt">Декабрь 2021</span>
+                    <a class="months__blc-txt" href="#">Скачать</a>
+                </div>
+                <div class="months__blc"><span class="months__ex-txt">Декабрь 2021</span>
+                    <a class="months__blc-txt" href="#">Скачать</a>
+                </div>
+                <div class="months__blc"><span class="months__ex-txt">Декабрь 2021</span>
+                    <a class="months__blc-txt" href="#">Скачать</a>
+                </div>
+            </div>
+        </div>
     </main>
 
     <div class="call-to-action">
@@ -235,12 +123,13 @@
                 <div class="call-to-action__inner__other-money">
                     <span class="call-to-action__inner__other-money__item">Другая сумма</span>
                 </div>
-                <a class="call-to-action__inner__btn" href="#">
+                <a class="call-to-action__inner__btn" href="donate.html">
                     Помочь
                 </a>
             </div>
         </div>
     </div>
+
 
     <footer class="footer">
         <div class="container">

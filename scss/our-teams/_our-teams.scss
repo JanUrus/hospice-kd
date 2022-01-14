@@ -1,0 +1,137 @@
+.bread-crumbs {
+width: 300px;
+height: 17px;
+margin: 20px 1115px 64px 100px;
+
+& li {
+    display: inline;
+}
+
+& a {
+    text-decoration: none;
+}
+& a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+&__employee {
+    color: #2b0e5e;
+}
+}
+
+.our-teams {
+    width: 1244px;
+    height: 1750px;
+    margin: 100px 98px 36px 98px;
+
+&__elements {
+    width: 822px;
+    height: auto;
+    margin: 49px 21px 100px 98px;
+
+    &__title {
+    width: 300px;
+    height: 41px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 41px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+    }
+
+    &__descr {
+        width: 812px;
+        height: 152px; 
+        margin-top: 20px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 34px;
+        text-align: justify;
+        color: #000000;
+    }
+}
+
+
+&__cards {
+    width: 820px;
+    height: 1088px;
+    margin: 67px 19px 109px 100px;
+    display: flex;
+    flex-direction: column;   
+    justify-content: space-between; 
+
+   &__row {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+    
+    &__item {
+        width: 400px;
+        height: 442px;
+        left: 100px;
+        top: 1109px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: #FF7272;
+        border-radius: 20px;
+        margin-bottom: 64px;
+    }
+
+    .our-teams__cards__row__item__img {
+        width: 301px;
+        height: 301px;
+        left: 149px;
+        top: 1039px;
+        margin-top: -50%;
+        margin-bottom: 20px;
+        border-radius: 50%;
+        }
+
+
+        .our-teams__cards__row__item__title {
+            width: 185px;
+            height: 68px;
+            margin-bottom: 20px;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 34px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        .our-teams__cards__row__item__subtitle {
+            width: 117px;
+            height: 28px;
+            font-family: Rubik;
+            font-style: italic;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            color: #FFFFFF;
+        }
+    
+  }
+  
+}
+}
+
+    
+
+
+
+
+
+
+
+
+
+
