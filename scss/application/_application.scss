@@ -1,49 +1,147 @@
-// .page {
-//     &__application {
-//         &__item{
-//             &__inner{
-//                 &__link{
-//                     display: flex;
-//                     justify-content: space-between;
-//                 }
-//             }
-//         }
-
-//     }
-// }
-
-.get-help {
-
-    &__inner {
-
-        &__item {
-
-            &__title {
-                font-family: Rubik, sans-serif;
-                font-size: 40px;
-                font-weight: 600;
-                font-style: normal;
-                color: black;
-            }
-            &__sub-title  {
-                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                font-size: 20px;
-                font-weight: 400;
-                font-style: normal;
-                color: black;
-                margin: 33px 0 0;
-            }
+.application {
+    font-family: "Rubik", sans-serif;
+    &__main-txt {
+      &__bg-circle {
+        &__large {
+          width: 288px;
+          height: 288px;
+          border-radius: 50%;
+          background: #ffebf9;
+          position: absolute;
+          bottom: 314px;
+          right: 15px;
+          z-index: -1;
         }
+  
+        &__medium {
+          width: 101px;
+          height: 101px;
+          border-radius: 50%;
+          background: #cffffd;
+          z-index: -1;
+          position: absolute;
+          bottom: 674px;
+          right: 329px;
+        }
+  
+        &__small {
+          height: 41px;
+          height: 41px;
+          border-radius: 50%;
+          background: #01329d;
+          z-index: -1;
+          position: absolute;
+          bottom: 584px;
+          right: 300px;
+        }
+      }
+      &__inner {
+        position: relative;
+        padding-bottom: 82px;
+        &__title {
+          margin: 41px 0 33px;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 40px;
+          line-height: 41px;
+          color: #000000;
+        }
+  
+        &__paragraphs {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 28px;
+          color: #000000;
+        }
+        &__paragraphs + &__paragraphs {
+          margin-bottom: 30px;
+        }
+      }
     }
-}
-
-
-// * {
-//     box-sizing: border-box;
-// }
-// .container1{
-//     background-color: white;
-//     border-radius: 5px;
-//     box-shadow: 0 2px rgba(red, green, blue, alpha);
-//     width: 1240px;
-// }
+  
+    &__form {
+      background: #e3ecff;
+      &__inner {
+        padding: 35px 0 86px;
+        &__item-mbuniq {
+          margin-bottom: 30px;
+        }
+        &__item {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: space-between;
+          background: #fff;
+          box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 15px;
+          padding: 20px 0 20px 40px;
+  
+          &__labels {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 21px;
+            color: #000000;
+            margin-bottom: 15px;
+            &__help {
+              font-style: normal;
+              font-weight: normal;
+              font-size: 16px;
+              line-height: 19px;
+              color: #000000;
+              margin-left: 10px;
+            }
+          }
+  
+          &__inputs {
+            background: #ffffff;
+            border: 1px solid #686868;
+            box-sizing: border-box;
+            box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 15px;
+            width: 400px;
+  
+            &::placeholder {
+              color: #686868;
+              font-size: 18px;
+            }
+  
+            &__accurateDiagnosis {
+              width: 20px;
+              height: 20px;
+            }
+          }
+  
+          &__elements {
+            display: flex;
+            align-items: center;
+          }
+          &__elements + &__elements {
+            margin-bottom: 20px;
+          }
+        }
+  
+        &__item + &__item {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 1021.98px) {
+    .application {
+      &__form {
+        &__inner {
+          &__item {
+            padding: 10px;
+            &__inputs {
+              width: 100%;
+              padding: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
