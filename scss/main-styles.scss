@@ -33,19 +33,29 @@
 
 @import '../scss/need-help/heed-help';
 
+
+// Diana Sadirbekkyzy - Application page
+@import '../scss/application/application';
+// =====
+
+@import "../scss/need-help/heed-help";
+
 // Ayzada - our-teams page
 @import "../scss/our-teams/our-teams";
-
-
 
 //Myrzaiym - Donate page
 @import "./donate/donate";
 
 // Nurgul - Official document
+
+@import "./official-doc/official";
+
+
 @import './official-doc/official';
 
 // legal-entities page (юр. лица)
 @import "../scss/legal-entities/legal-entities";
+
 
 // Diana Sadirbekkyzy - Application page
 @import "../scss/application/application";
@@ -61,4 +71,5 @@
 
 // Diana Zhusupbekova - Reports page
 @import "../scss/reports/reports";
+
 

@@ -1,3 +1,4 @@
+
 $color__blue: #e3ecff;
 $color__light-blue: #cffffd;
 $color__yellow: #ffefab;
@@ -8,8 +9,16 @@ $color__white: #ffffff;
 
 // DONATE SECTION
 
+.img-bg {
+  position: absolute;
+  width: 195px;
+  
+  transform: translate(440%, -20%);
+}
+
 .donate {
   &__inner {
+    
     &__all-elements {
       &__title {
         font-family: Rubik, sans-serif;
@@ -17,7 +26,7 @@ $color__white: #ffffff;
         font-weight: 500;
         font-style: normal;
 
-        margin: 30px 0 40px 0;
+        margin: 30px 0 60px 0;
         color: $color__black;
         text-align: center;
       }
@@ -28,13 +37,13 @@ $color__white: #ffffff;
           align-items: center;
 
           &__wallet-pay {
-            margin: -40px 0 30px 0;
+            margin: -50px 0 30px 0;
           }
 
           &__help-sick-children {
             background-color: $color__blue;
             border-radius: 15px;
-            padding: 36px 30px 46px 13px;
+            padding: 36px 34px 46px 13px;
             box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
 
             &__logo-and-title {
@@ -50,6 +59,7 @@ $color__white: #ffffff;
                 color: $color__black;
                 margin: 0 0 0 10px;
               }
+            
             }
 
             &__pg {
@@ -60,7 +70,7 @@ $color__white: #ffffff;
 
               color: $color__black;
               max-width: 333px;
-              margin: 36px 0;
+              margin: 22px 0;
             }
 
             &__btn {
@@ -95,17 +105,15 @@ $color__white: #ffffff;
           &__treatment-abroad {
             background-color: $color__light-blue;
             border-radius: 15px;
-            padding: 36px 120px 46px 13px;
+            padding: 36px 117px 46px 13px;
             box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
-            margin: 60px 50px;
+            margin: 70px 50px;
+            
 
             &__logo-and-title {
               display: flex;
               align-items: center;
 
-              &__wallet2 {
-                margin: 0 0 30px 0;
-              }
 
               &__title {
                 font-family: Rubik, sans-serif;
@@ -115,9 +123,18 @@ $color__white: #ffffff;
 
                 padding: 0 0 30px 0;
                 color: $color__black;
-                margin: 0 30px 0 10px;
+                margin: 0 20px 0 10px;
+              } 
+              
+              &__wallet2{
+                margin: -30px 0 0 0;
               }
-            }
+              }
+              &__visacard-icon {
+                display: flex;
+                flex-wrap: wrap;
+                
+              }
 
             &__pg {
               font-family: Rubik, sans-serif;
@@ -130,10 +147,7 @@ $color__white: #ffffff;
               margin: 36px 0;
             }
 
-            &__visacard-icon {
-              display: flex;
-              align-items: center;
-            }
+           
 
             &__btn {
               font-family: Rubik, sans-serif;
@@ -389,3 +403,4 @@ $color__white: #ffffff;
                     }
                 }
             }
+
