@@ -3,6 +3,43 @@
   margin: 0 auto;
   font-family: Rubik, sans-serif;
 
+  &__aside {
+    display: flex;
+  }
+
+  &__sidebar {
+    margin-left: 18px;
+  }
+
+  &__breadcrumbs {
+    margin: 41px 0 49px 0;
+  }
+
+  &__breadcrumbs-item {
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  &__breadcrumbs-link {
+    text-decoration: none;
+    color: #000000;
+    transition: 0.5s;
+  }
+
+  &__breadcrumbs-link::after {
+    content: " > ";
+    color: #000000;
+    font-weight: 400;
+  }
+
+  &__breadcrumbs-link:hover {
+    color: #ff7272;
+  }
+
+  &__breadcrumbs-active {
+    font-weight: 500;
+  }
+
   &__title {
     height: 41px;
     margin: 25px 0 29px;
