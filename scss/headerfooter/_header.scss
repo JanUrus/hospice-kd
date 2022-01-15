@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0;
+    padding: 30px 0;
     position: relative;
 
     &__logo {
@@ -17,7 +17,7 @@
       height: 600px;
       position: absolute;
       left: -40px;
-      top: -526px;
+      top: -506px;
       z-index: -1;
     }
     &__circle-bg {
@@ -27,7 +27,7 @@
       height: 350px;
       position: absolute;
       left: 200px;
-      top: -300px;
+      top: -280px;
     }
 
     &__menu {

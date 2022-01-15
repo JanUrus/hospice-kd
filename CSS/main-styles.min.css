@@ -40,7 +40,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 10px 0;
+  padding: 30px 0;
   position: relative;
 }
 .header__inner__logo {
@@ -54,7 +54,7 @@
   height: 600px;
   position: absolute;
   left: -40px;
-  top: -526px;
+  top: -506px;
   z-index: -1;
 }
 .header__inner__circle-bg {
@@ -64,7 +64,7 @@
   height: 350px;
   position: absolute;
   left: 200px;
-  top: -300px;
+  top: -280px;
 }
 .header__inner__menu {
   display: -webkit-box;
@@ -348,6 +348,9 @@
   border-radius: 15px;
   max-width: 400px;
   height: 497px;
+  height: 367px;
+  margin-right: 198px;
+  margin-left: auto;
 }
 .sidebar__inner__menu {
   display: -webkit-box;
@@ -2930,12 +2933,20 @@ section .topscreen__text__a__kk__donate:hover {
   color: #FFFFFF;
 }
 
+.img-bg {
+  position: absolute;
+  width: 195px;
+  -webkit-transform: translate(440%, -20%);
+      -ms-transform: translate(440%, -20%);
+          transform: translate(440%, -20%);
+}
+
 .donate__inner__all-elements__title {
   font-family: Rubik, sans-serif;
   font-size: 36px;
   font-weight: 500;
   font-style: normal;
-  margin: 30px 0 40px 0;
+  margin: 30px 0 60px 0;
   color: #000000;
   text-align: center;
 }
@@ -2948,12 +2959,12 @@ section .topscreen__text__a__kk__donate:hover {
           align-items: center;
 }
 .donate__inner__all-elements__item-blocks__first-row__wallet-pay {
-  margin: -40px 0 30px 0;
+  margin: -50px 0 30px 0;
 }
 .donate__inner__all-elements__item-blocks__first-row__help-sick-children {
   background-color: #e3ecff;
   border-radius: 15px;
-  padding: 36px 30px 46px 13px;
+  padding: 36px 34px 46px 13px;
   -webkit-box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
           box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
 }
@@ -2980,7 +2991,7 @@ section .topscreen__text__a__kk__donate:hover {
   font-style: normal;
   color: #000000;
   max-width: 333px;
-  margin: 36px 0;
+  margin: 22px 0;
 }
 .donate__inner__all-elements__item-blocks__first-row__help-sick-children__btn {
   font-family: Rubik, sans-serif;
@@ -3011,10 +3022,10 @@ section .topscreen__text__a__kk__donate:hover {
 .donate__inner__all-elements__item-blocks__first-row__treatment-abroad {
   background-color: #cffffd;
   border-radius: 15px;
-  padding: 36px 120px 46px 13px;
+  padding: 36px 117px 46px 13px;
   -webkit-box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
           box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
-  margin: 60px 50px;
+  margin: 70px 50px;
 }
 .donate__inner__all-elements__item-blocks__first-row__treatment-abroad__logo-and-title {
   display: -webkit-box;
@@ -3024,9 +3035,6 @@ section .topscreen__text__a__kk__donate:hover {
       -ms-flex-align: center;
           align-items: center;
 }
-.donate__inner__all-elements__item-blocks__first-row__treatment-abroad__logo-and-title__wallet2 {
-  margin: 0 0 30px 0;
-}
 .donate__inner__all-elements__item-blocks__first-row__treatment-abroad__logo-and-title__title {
   font-family: Rubik, sans-serif;
   font-size: 20px;
@@ -3034,7 +3042,17 @@ section .topscreen__text__a__kk__donate:hover {
   font-style: normal;
   padding: 0 0 30px 0;
   color: #000000;
-  margin: 0 30px 0 10px;
+  margin: 0 20px 0 10px;
+}
+.donate__inner__all-elements__item-blocks__first-row__treatment-abroad__logo-and-title__wallet2 {
+  margin: -30px 0 0 0;
+}
+.donate__inner__all-elements__item-blocks__first-row__treatment-abroad__visacard-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .donate__inner__all-elements__item-blocks__first-row__treatment-abroad__pg {
   font-family: Rubik, sans-serif;
@@ -3044,14 +3062,6 @@ section .topscreen__text__a__kk__donate:hover {
   color: #000000;
   max-width: 353px;
   margin: 36px 0;
-}
-.donate__inner__all-elements__item-blocks__first-row__treatment-abroad__visacard-icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 .donate__inner__all-elements__item-blocks__first-row__treatment-abroad__btn {
   font-family: Rubik, sans-serif;
