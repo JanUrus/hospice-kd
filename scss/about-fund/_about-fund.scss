@@ -1,20 +1,53 @@
 body {
     overflow-x: hidden;
+    
 }
-// .main {
-//     position: absolute;
-//     width: 1243px;
-//     height: 785px;
-//     margin: 0 auto;
-//     top: 132px;
-// }
-.about-page {
-    display: flex;
-    align-items: center;
+.main {
+    position:relative;
+    margin: auto;
+    width: 1240px;
+    height: 785px;
+    left: 15px;
+    top: 95px;
 
-    &__container {
+
+.sidebar {
+    margin-left: 850px;
     }
 
+.figure {
+
+    &__vector-red {
+        position: absolute;
+        height: 47,18px;
+        width: 48,96px;
+        left: 745px;
+        top: 578px;
+        
+    }    
+    // &__vector-gr {
+    //     height: 34.922882080078125px;
+    //     width: 36.255348205566406px;
+    //     left: 822.7802734375px;
+    //     top: 152.879150390625px;
+    //     border-radius: 0px;
+        
+        
+    // }
+
+    }
+    
+}
+.about-page {
+   
+        position: absolute;
+        width: 845px;
+        height: 414px;
+        // background-color: aquamarine;
+
+    
+
+    
     &__title {
         font-family: Ribik, sans-serif;
         font-size: 40px;
@@ -22,6 +55,7 @@ body {
         font-style: bold;
         line-height: 41px;
         color: #000000;
+
     }
 
     &__text {
@@ -30,8 +64,10 @@ body {
         font-weight: 400;
         font-style: normal;
         line-height: 34px;
+        // padding-top: 60px;
         color: #000000;
     }
-   
+
+    
+
 }
-//  "scss не применяется but in the process of work"
