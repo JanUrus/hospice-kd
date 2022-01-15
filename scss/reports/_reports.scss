@@ -1,0 +1,143 @@
+.reports {
+  width: 1244px;
+  margin: 0 auto;
+  font-family: Rubik, sans-serif;
+
+  &__aside {
+    display: flex;
+  }
+
+  &__sidebar {
+    margin-left: 18px;
+  }
+
+  &__breadcrumbs {
+    margin: 41px 0 49px 0;
+  }
+
+  &__breadcrumbs-item {
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  &__breadcrumbs-link {
+    text-decoration: none;
+    color: #000000;
+    transition: 0.5s;
+  }
+
+  &__breadcrumbs-link::after {
+    content: " > ";
+    color: #000000;
+    font-weight: 400;
+  }
+
+  &__breadcrumbs-link:hover {
+    color: #ff7272;
+  }
+
+  &__breadcrumbs-active {
+    font-weight: 500;
+  }
+
+  &__title {
+    height: 41px;
+    margin: 25px 0 29px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 41px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+
+  &__years {
+    width: 826px;
+    padding-bottom: 37px;
+  }
+
+  &__years-link {
+    width: 190px;
+    height: 80px;
+    left: 100px;
+    top: 249px;
+    background: #ff7272;
+    border-radius: 20px;
+    margin-bottom: 37px;
+  }
+
+  &__year-link {
+    display: inline-block;
+    margin-top: 18px;
+    width: 149px;
+    height: 41px;
+    padding-left: 18px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 41px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  &__margin {
+    padding-bottom: 121px;
+  }
+}
+
+.months {
+  display: flex;
+  padding: 0;
+  margin: 0 0 70px 0;
+
+  &__year {
+    width: 822px;
+    height: 178px;
+    background: #c4c4c4;
+    border-radius: 15px;
+    margin: 37px 0;
+  }
+
+  &__year-title {
+    display: inline-block;
+    padding: 69px 315px 68px 332px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 41px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+
+  &__blc {
+    width: 259px;
+    height: 375px;
+    border: 2px solid #c4c4c4;
+    background-color: #c4c4c4;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 10px 10px 0 10px;
+  }
+
+  &__blc-no-margin {
+    margin-left: 0;
+  }
+
+  &__blc-txt {
+    display: block;
+    padding-top: 215px;
+    font-size: 14px;
+    line-height: 41px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #475174;
+    text-decoration: none;
+    text-transform: lowercase;
+  }
+
+  &__ex-txt {
+    display: inline-block;
+    padding: 150px 0 0 75px;
+    font-weight: bold;
+  }
+}

@@ -130,18 +130,25 @@
   }
 }
 
-@media (max-width: 1021.98px) {
-  .application {
-    &__form {
-      &__inner {
-        &__item {
-          padding: 10px;
-          &__inputs {
-            width: 100%;
+  
+
+
+
+
+  @media (max-width: 1021.98px) {
+    .application {
+      &__form {
+        &__inner {
+          &__item {
             padding: 10px;
+            &__inputs {
+              width: 100%;
+              padding: 10px;
+            }
           }
         }
       }
     }
   }
-}
+
+
