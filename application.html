@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Заявка</title>
     <link rel="icon" href="./img/favicon.svg">
-    <link rel="stylesheet" href="scss/application/_application.scss">
     <link rel="stylesheet" href="CSS/main-styles.min.css">
 </head>
 
@@ -25,7 +24,7 @@
                 <div class="header__inner__circle-bg"></div>
                 <ul class="header__inner__menu">
                     <li class="header__inner__menu__item">
-                        <a class="header__inner__menu__item__link" href="">О фонде</a>
+                        <a class="header__inner__menu__item__link" href="aboutfund.html">О фонде</a>
                     </li>
                     <li class="header__inner__menu__item">
                         <a class="header__inner__menu__item__link" href="wanthelp.html">Хочу помочь</a>
@@ -180,165 +179,211 @@
                         <input class="application__form__inner__item__inputs" type="text" id="accurateDiagnosis"
                             name="accurateDiagnosis" required placeholder="4. Точный диагноз (как указано в выписке)">
                     </div>
+                    <div class="application__form__inner__item">
+                        <label class="application__form__inner__item__labels" for="accurateDiagnosis"> </label>
+                        <label class="application__form__inner__item__labels" for="accurateDiagnosis">4. Точный диагноз
+                            (как указано в выписке)*</label>
+                        <input class="application__form__inner__item__inputs" type="text" id="accurateDiagnosis"
+                            name="accurateDiagnosis" required placeholder="4. Точный диагноз (как указано в выписке)">
+                    </div>
+                    <div class="application__form__inner__item">
+
+                        <label class="application__form__inner__item__labels">6. Статус обращающегося лица:</label>
+
+                        <div class="application__form__inner__item__elements application__form__inner__item-mbuniq">
+                            <input class="application__form__inner__item__inputs__accurateDiagnosis" type="radio"
+                                id="provisionMedicines" name="help" required>
+
+                            <label class="application__form__inner__item__labels__help"
+                                for="provisionMedicines">Мама</label>
+                        </div>
+
+                        <div class="application__form__inner__item__elements">
+                            <input class="application__form__inner__item__inputs__accurateDiagnosis" type="radio"
+                                id="paymentOther" name="help" required>
+                            <label class="application__form__inner__item__labels__help" for="paymentOther">Отец</label>
+                        </div>
+
+                        <div class="application__form__inner__item__elements">
+                            <input class="application__form__inner__item__inputs__accurateDiagnosis" type="radio"
+                                id="other" name="help" required>
+                            <label class="application__form__inner__item__labels__help" for="other">Законный </label>
+                        </div>
+                    </div>
+                    <div class="application__form__inner__item">
+                        <label class="application__form__inner__item__labels" for="yourPhone">7. Контактный телефон лица,
+                            обращающегося за помощью*</label>
+                        <input class="application__form__inner__item__inputs" type="tel" id="yourPhone" name="yourPhone"
+                            required placeholder="Укажите ваш Контактный номер">
+                    </div>
+                    <div class="application__form__inner__item">
+                        <label class="application__form__inner__item__labels" for="yourEmail">8. Адрес электронной почты
+                            обращающегося за помощью*</label>
+                        <input class="application__form__inner__item__inputs" type="email" id="yourEmail" name="yourEmail"
+                            required placeholder="Укажите ваш email">
+                    </div>
+        </form>
+        <form class="element" style="height: 40px;
+        width: 215px;
+        left: 1139px;
+        top: 3011px;
+        border-radius: 5px;
+        font-family: Rubik, sans-serif;
+        font-size: 16px;
+        color: white;
+        background-color: #775CA6;
+        ;"
+        >
+            <div class="element__submit">
+                <button type="submit">Отправить</button>
+            </div>
         </form>
     </main>
 
     <footer class="footer">
-        <div class="container">
-            <div class="footer__inner">
-                <div class="footer__inner__social-media-logo">
-                    <ul class="footer__inner__social-media-logo__inner">
-                        <li class="footer__inner__social-media-logo__inner__item">
-                            <a class="footer__inner__social-media-logo__inner__item__logo-link" href="index.html">
-                                <img class="footer__inner__social-media-logo__inner__item__logo-link__logo"
-                                    src="./img/logo-footer.svg" alt="Первый Детский Хоспис">
-                            </a>
-                        </li>
-                        <li class="footer__inner__social-media-logo__inner__item">
-                            <p class="footer__inner__social-media-logo__inner__item__hospice-descr">
-                                Общественный Благотворительный
-                                Фонд «Первый детский хоспис»
-                            </p>
-                        </li>
-                        <li class="footer__inner__social-media-logo__inner__item">
-                            <p class="footer__inner__social-media-logo__inner__item__sm-descr">Мы в социальных сетях:
-                            </p>
-                        </li>
-                        <li class="footer__inner__social-media-logo__inner__item">
-                            <a class="footer__inner__social-media-logo__inner__item__link "
-                                href="https://t.me/userName">
-                                <img class="footer__inner__social-media-logo__inner__item__link__img__telegram"
-                                    src="./img/Telegram.svg" alt="Telegram">
-                            </a>
-                            <a class="footer__inner__social-media-logo__inner__item__link "
-                                href="https://wa.me/+996700700700">
-                                <img class="footer__inner__social-media-logo__inner__item__link__img__whatsapp"
-                                    src="./img/Whatsapp.svg" alt="Whatsapp">
-                            </a>
-                            <a class="footer__inner__social-media-logo__inner__item__link "
-                                href="https://instagram.com/hospicekgz">
-                                <img class="footer__inner__social-media-logo__inner__item__link__img__instagram"
-                                    src="./img/Instagram.svg" alt="Instagram">
-                            </a>
-                            <a class="footer__inner__social-media-logo__inner__item__link"
-                                href="https://youtube.com/hospicekgz">
-                                <img class="footer__inner__social-media-logo__inner__item__link__img__youtube"
-                                    src="./img/Youtube.svg" alt="Youtube">
-                            </a>
-                            <a class="footer__inner__social-media-logo__inner__item__link"
-                                href="https://facebook.com/hospicekgz">
-                                <img class="footer__inner__social-media-logo__inner__item__link__img__facebook"
-                                    src="./img/Facebook.svg" alt="Facebook">
-                            </a>
+		<div class="container">
+			<div class="footer__inner">
+				<div class="footer__inner__social-media-logo">
+					<ul class="footer__inner__social-media-logo__inner">
+						<li class="footer__inner__social-media-logo__inner__item">
+							<a class="footer__inner__social-media-logo__inner__item__logo-link" href="index.html">
+								<img class="footer__inner__social-media-logo__inner__item__logo-link__logo"
+									src="./img/logo-footer.svg" alt="Первый Детский Хоспис">
+							</a>
+						</li>
+						<li class="footer__inner__social-media-logo__inner__item">
+							<p class="footer__inner__social-media-logo__inner__item__hospice-descr">
+								Общественный Благотворительный
+								Фонд «Первый детский хоспис»
+							</p>
+						</li>
+						<li class="footer__inner__social-media-logo__inner__item">
+							<p class="footer__inner__social-media-logo__inner__item__sm-descr">Мы в социальных сетях:</p>
+						</li>
+						<li class="footer__inner__social-media-logo__inner__item">
+							<a class="footer__inner__social-media-logo__inner__item__link " href="https://t.me/userName">
+								<img class="footer__inner__social-media-logo__inner__item__link__img__telegram"
+									src="./img/Telegram.svg" alt="Telegram">
+							</a>
+							<a class="footer__inner__social-media-logo__inner__item__link " href="https://wa.me/+996700700700">
+								<img class="footer__inner__social-media-logo__inner__item__link__img__whatsapp"
+									src="./img/Whatsapp.svg" alt="Whatsapp">
+							</a>
+							<a class="footer__inner__social-media-logo__inner__item__link "
+								href="https://instagram.com/hospicekgz">
+								<img class="footer__inner__social-media-logo__inner__item__link__img__instagram"
+									src="./img/Instagram.svg" alt="Instagram">
+							</a>
+							<!-- <a class="footer__inner__social-media-logo__inner__item__link"
+								href="https://youtube.com/hospicekgz">
+								<img class="footer__inner__social-media-logo__inner__item__link__img__youtube"
+									src="./img/Youtube.svg" alt="Youtube">
+							</a> -->
+							<a class="footer__inner__social-media-logo__inner__item__link"
+								href="https://facebook.com/hospicekgz">
+								<img class="footer__inner__social-media-logo__inner__item__link__img__facebook"
+									src="./img/Facebook.svg" alt="Facebook">
+							</a>
 
-                        </li>
-                    </ul>
-                </div>
+						</li>
+					</ul>
+				</div>
 
-                <div class="footer__inner__requisites-info-contact">
-                    <div class="footer__inner__requisites-info-contact__inner">
-                        <div class="footer__inner__requisites-info-contact__inner__requisites">
-                            <h3 class="footer__inner__requisites-info-contact__inner__title">Реквизиты</h3>
-                            <p
-                                class="footer__inner__requisites-info-contact__inner__requisites__item footer__mb-unique">
-                                ОБФ "Первый детский хоспис"
-                            </p>
-                            <p class="footer__inner__requisites-info-contact__inner__requisites__item">
-                                ИНН 01502201610205
+				<div class="footer__inner__requisites-info-contact">
+					<div class="footer__inner__requisites-info-contact__inner">
+						<div class="footer__inner__requisites-info-contact__inner__requisites">
+							<h3 class="footer__inner__requisites-info-contact__inner__title">Реквизиты</h3>
+							<p class="footer__inner__requisites-info-contact__inner__requisites__item footer__mb-unique">
+								ОБФ "Первый детский хоспис"
+							</p>
+							<p class="footer__inner__requisites-info-contact__inner__requisites__item">
+								ИНН 01502201610205
 
-                            </p>
-                            <p class="footer__inner__requisites-info-contact__inner__requisites__item">
-                                ОКПО 29400184
+							</p>
+							<p class="footer__inner__requisites-info-contact__inner__requisites__item">
+								ОКПО 29400184
 
-                            </p>
-                            <p class="footer__inner__requisites-info-contact__inner__requisites__item">
-                                ОАО Банк «Бай Тушум»
-                            </p>
-                            <p class="footer__inner__requisites-info-contact__inner__requisites__item">
-                                KGS 1371040001440439
-                            </p>
-                            <p class="footer__inner__requisites-info-contact__inner__requisites__item">
-                                БИК 137001
-                            </p>
-                            <p class="footer__inner__requisites-info-contact__inner__requisites__item">
-                                Optima 4169615189595451
-                            </p>
-                            <p class="footer__inner__requisites-info-contact__inner__requisites__item">
-                                ЗАО "КИКБ"
-                            </p>
-                            <p class="footer__inner__requisites-info-contact__inner__requisites__item">
-                                Расчетный Счет KGS: 1280096037288596
-                            </p>
-                            <p class="footer__inner__requisites-info-contact__inner__requisites__item">
-                                БИК 128009
-                            </p>
-                            <p class="footer__inner__requisites-info-contact__inner__requisites__item">
-                                Элсом 0559647457
-                            </p>
-                            <p class="footer__inner__requisites-info-contact__inner__requisites__item">
-                                О деньги 0707040602
-                            </p>
-                            <p class="footer__inner__requisites-info-contact__inner__requisites__item">
-                                MegaPay 0559647457
-                            </p>
-                            <p class="footer__inner__requisites-info-contact__inner__requisites__item">
-                                PayPal <a
-                                    class="footer__inner__requisites-info-contact__inner__requisites__item__PayPal-link"
-                                    href="https://paypal.me/hospicekgz" target="_blank">https://paypal.me/hospicekgz</a>
-                            </p>
-                        </div>
+							</p>
+							<p class="footer__inner__requisites-info-contact__inner__requisites__item">
+								ОАО Банк «Бай Тушум»
+							</p>
+							<p class="footer__inner__requisites-info-contact__inner__requisites__item">
+								KGS 1371040001440439
+							</p>
+							<p class="footer__inner__requisites-info-contact__inner__requisites__item">
+								БИК 137001
+							</p>
+							<p class="footer__inner__requisites-info-contact__inner__requisites__item">
+								Optima 4169615189595451
+							</p>
+							<p class="footer__inner__requisites-info-contact__inner__requisites__item">
+								ЗАО "КИКБ"
+							</p>
+							<p class="footer__inner__requisites-info-contact__inner__requisites__item">
+								Расчетный Счет KGS: 1280096037288596
+							</p>
+							<p class="footer__inner__requisites-info-contact__inner__requisites__item">
+								БИК 128009
+							</p>
+							<p class="footer__inner__requisites-info-contact__inner__requisites__item">
+								Элсом 0559647457
+							</p>
+							<p class="footer__inner__requisites-info-contact__inner__requisites__item">
+								О деньги 0707040602
+							</p>
+							<p class="footer__inner__requisites-info-contact__inner__requisites__item">
+								MegaPay 0559647457
+							</p>
+							<p class="footer__inner__requisites-info-contact__inner__requisites__item">
+								PayPal <a class="footer__inner__requisites-info-contact__inner__requisites__item__PayPal-link"
+									href="https://paypal.me/hospicekgz" target="_blank">https://paypal.me/hospicekgz</a>
+							</p>
+						</div>
 
-                        <div class="footer__inner__requisites-info-contact__inner__info">
-                            <h3 class="footer__inner__requisites-info-contact__inner__title">Информация</h3>
+						<div class="footer__inner__requisites-info-contact__inner__info">
+							<h3 class="footer__inner__requisites-info-contact__inner__title">Информация</h3>
 
-                            <a class="footer__inner__requisites-info-contact__inner__info__item"
-                                href="index.html">Главная</a>
-                            <a class="footer__inner__requisites-info-contact__inner__info__item" href="#">О фонде</a>
-                            <a class="footer__inner__requisites-info-contact__inner__info__item"
-                                href="wanthelp.html">Хочу
-                                помочь</a>
-                            <a class="footer__inner__requisites-info-contact__inner__info__item"
-                                href="need-help.html">Нужна
-                                помощь</a>
-                        </div>
+							<a class="footer__inner__requisites-info-contact__inner__info__item" href="index.html">Главная</a>
+							<a class="footer__inner__requisites-info-contact__inner__info__item" href="#">О фонде</a>
+							<a class="footer__inner__requisites-info-contact__inner__info__item" href="wanthelp.html">Хочу
+								помочь</a>
+							<a class="footer__inner__requisites-info-contact__inner__info__item" href="need-help.html">Нужна
+								помощь</a>
+						</div>
 
-                        <!--Requisites Info Contact-->
-                        <div class="footer__inner__requisites-info-contact__inner__contact">
-                            <h3 class="footer__inner__requisites-info-contact__inner__title">Контакты</h3>
-                            <div
-                                class="footer__inner__requisites-info-contact__inner__contact__item  footer__mb-unique">
-                                <img class="footer__inner__requisites-info-contact__inner__contact__item__icon__location"
-                                    src="./img/location.svg" alt="Location">
-                                <p class="footer__inner__requisites-info-contact__inner__contact__item__location">г.
-                                    Бишкек,
-                                    бул. Молодой Гвардии 71а</p>
-                            </div>
-                            <div class="footer__inner__requisites-info-contact__inner__contact__item">
-                                <img class="footer__inner__requisites-info-contact__inner__contact__item__icon__email"
-                                    src="./img/email.svg" alt="Email">
-                                <a class="footer__inner__requisites-info-contact__inner__contact__item__email__text"
-                                    href="mailto:childrenshospice.kg@gmail.com">childrenshospice.kg@gmail.com</a>
-                            </div>
-                            <div class="footer__inner__requisites-info-contact__inner__contact__item">
-                                <img class="footer__inner__requisites-info-contact__inner__contact__item__icon__phone"
-                                    src="./img/phone.svg" alt="Phone Number">
-                                <div
-                                    class="footer__inner__requisites-info-contact__inner__contact__item__phone__numbers">
-                                    <a class="footer__inner__requisites-info-contact__inner__contact__item__phone__numbers__item"
-                                        href="tel:+996550050440">+996
-                                        (550) 050440 </a>
-                                    <a class="footer__inner__requisites-info-contact__inner__contact__item__phone__numbers__item"
-                                        href="tel:+996559647457">+996
-                                        (559) 647457</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
+						<!--Requisites Info Contact-->
+						<div class="footer__inner__requisites-info-contact__inner__contact">
+							<h3 class="footer__inner__requisites-info-contact__inner__title">Контакты</h3>
+							<div class="footer__inner__requisites-info-contact__inner__contact__item  footer__mb-unique">
+								<img class="footer__inner__requisites-info-contact__inner__contact__item__icon__location"
+									src="./img/location.svg" alt="Location">
+								<p class="footer__inner__requisites-info-contact__inner__contact__item__location">г. Бишкек,
+									бул. Молодой Гвардии 71а</p>
+							</div>
+							<div class="footer__inner__requisites-info-contact__inner__contact__item">
+								<img class="footer__inner__requisites-info-contact__inner__contact__item__icon__email"
+									src="./img/email.svg" alt="Email">
+								<a class="footer__inner__requisites-info-contact__inner__contact__item__email__text"
+									href="mailto:childrenshospice.kg@gmail.com">childrenshospice.kg@gmail.com</a>
+							</div>
+							<div class="footer__inner__requisites-info-contact__inner__contact__item">
+								<img class="footer__inner__requisites-info-contact__inner__contact__item__icon__phone"
+									src="./img/phone.svg" alt="Phone Number">
+								<div class="footer__inner__requisites-info-contact__inner__contact__item__phone__numbers">
+									<a class="footer__inner__requisites-info-contact__inner__contact__item__phone__numbers__item"
+										href="tel:+996550050440">+996
+										(550) 050440 </a>
+									<a class="footer__inner__requisites-info-contact__inner__contact__item__phone__numbers__item"
+										href="tel:+996559647457">+996
+										(559) 647457</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 
 </html>
